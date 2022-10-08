@@ -33,7 +33,7 @@ const Home = () => {
                 hover:bg-white
                 hover:border-base-blue
                 hover:text-black"
-                href="/personal-web/#about"
+                href="#about"
               >
                 View Work
                 <BiRightArrow size={17} />

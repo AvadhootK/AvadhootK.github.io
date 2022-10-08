@@ -19,32 +19,32 @@ const Navbar = () => {
       {/* menu */}
       <ul className="navbar-nav hidden lg:flex activenav">
         <li>
-          <a className="hover:text-base-blue alinks" href="/#">
+          <a className="hover:text-base-blue alinks" href="#home">
             Home
           </a>
         </li>
         <li>
-          <a className="hover:text-base-blue alinks" href="/#about">
+          <a className="hover:text-base-blue alinks" href="#about">
             About
           </a>
         </li>
         <li>
-          <a className="hover:text-base-blue alinks" href="/#skills">
+          <a className="hover:text-base-blue alinks" href="#skills">
             Skills
           </a>
         </li>
         <li>
-          <a className="hover:text-base-blue alinks" href="/#experience">
+          <a className="hover:text-base-blue alinks" href="#experience">
             Experience
           </a>
         </li>
         <li>
-          <a className="hover:text-base-blue alinks" href="/#portfolio">
+          <a className="hover:text-base-blue alinks" href="#portfolio">
             Portfolio
           </a>
         </li>
         <li>
-          <a className="hover:text-base-blue alinks" href="/#contact">
+          <a className="hover:text-base-blue alinks" href="#contact">
             Contact
           </a>
         </li>
@@ -64,22 +64,22 @@ const Navbar = () => {
         }
       >
         <motion.li className="py-2 text-lg" whileHover={{ translateX: -13 }}>
-          <a href="/#">Home</a>
+          <a href="#home">Home</a>
         </motion.li>
         <motion.li className="py-2 text-lg" whileHover={{ translateX: -13 }}>
-          <a href="/#about">About</a>
+          <a href="#about">About</a>
         </motion.li>
         <motion.li className="py-2 text-lg " whileHover={{ translateX: -13 }}>
-          <a href="/#skills">Skills</a>
+          <a href="#skills">Skills</a>
         </motion.li>
         <motion.li className="py-2 text-lg " whileHover={{ translateX: -13 }}>
-          <a href="/#experience">Experience</a>
+          <a href="#experience">Experience</a>
         </motion.li>
         <motion.li className="py-2 text-lg " whileHover={{ translateX: -13 }}>
-          <a href="/#portfolio">Portfolio</a>
+          <a href="#portfolio">Portfolio</a>
         </motion.li>
         <motion.li className="py-2 text-lg " whileHover={{ translateX: -13 }}>
-          <a href="/#contact">Contact</a>
+          <a href="#contact">Contact</a>
         </motion.li>
       </ul>
 
@@ -109,7 +109,7 @@ const Navbar = () => {
           <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#00acee]">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="/#"
+              href="/"
             >
               Twitter <TiSocialTwitter size={25} />
             </a>
@@ -117,7 +117,7 @@ const Navbar = () => {
           <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-teal-900">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="/#"
+              href="/"
             >
               Website <TiSocialDribbble size={25} />
             </a>
