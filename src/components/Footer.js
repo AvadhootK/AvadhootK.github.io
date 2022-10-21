@@ -90,9 +90,9 @@ const Footer = () => {
           </div>
           <div>
             <h2 className="text-xl pb-4 font-semibold">Contact</h2>
-            {contact.slice(0).map((items) => {
+            {contact.slice(0).map((items, i) => {
               return (
-                <div className="flex items-center gap-5 py-2">
+                <div className="flex items-center gap-5 py-2" key={i}>
                   <div>{items.icon}</div>
                   <div>{items.desc}</div>
                 </div>

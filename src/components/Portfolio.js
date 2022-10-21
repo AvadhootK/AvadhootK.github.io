@@ -195,10 +195,10 @@ const Portfolio = () => {
           </div>
         </div>
         <div>
-          <p className="text-3xl font-semibold text-center mb-10">
+          <div className="text-3xl font-semibold text-center mb-10">
             Featured Posts
             <hr className="bg-base-blue w-20 h-0.5 border-none mt-1 mx-auto"></hr>
-          </p>
+          </div>
           <p className="text-2xl font-medium text-center">
             Check out some of my sketches!
           </p>

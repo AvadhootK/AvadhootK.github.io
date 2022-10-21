@@ -5,21 +5,21 @@ const Contact = () => {
     <div id="contact" className="w-full bg-white text-black pt-[120px]">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-width-[1000px] w-full pb-8 text-center">
-          <p className="text-4xl font-semibold">
+          <div className="text-4xl font-semibold">
             Contact Me
             <hr className="bg-base-blue w-20 h-0.5 border-none mx-auto mt-1"></hr>
-          </p>
+          </div>
         </div>
-        <div class="lg:w-2/5 w-3/4 mx-auto pt-10 pb-20 ">
+        <div className="lg:w-2/5 w-3/4 mx-auto pt-10 pb-20 ">
           {/* <img src={code} alt="..."></img> */}
-          <div class="rounded-md bg-base-blue text-white p-10 shadow-2xl">
+          <div className="rounded-md bg-base-blue text-white p-10 shadow-2xl">
             <form>
-              <label class="block mb-6">
+              <label className="block mb-6">
                 <span className="text-xl">Name</span>
                 <input
                   type="text"
                   name="name"
-                  class="
+                  className="
                   text-black
             block
             w-full
@@ -33,12 +33,12 @@ const Contact = () => {
                   placeholder="Your name"
                 />
               </label>
-              <label class="block mb-6">
+              <label className="block mb-6">
                 <span className="text-xl">Email address</span>
                 <input
                   name="email"
                   type="email"
-                  class="
+                  className="
                   text-black
             block
             w-full
@@ -53,11 +53,11 @@ const Contact = () => {
                   required
                 />
               </label>
-              <label class="block mb-6">
+              <label className="block mb-6">
                 <span className="text-xl">Message</span>
                 <textarea
                   name="message"
-                  class="
+                  className="
                   text-black
             block
             w-full
@@ -72,14 +72,14 @@ const Contact = () => {
                   placeholder="Write a message..."
                 ></textarea>
               </label>
-              <div class="py-3 text-center">
+              <div className="py-3 text-center">
                 <div
                   type="submit"
                   style={{
                     cursor: "pointer",
                     borderRadius: "50px",
                   }}
-                  class="
+                  className="
                   text-lg
             py-2.5
             mx-auto

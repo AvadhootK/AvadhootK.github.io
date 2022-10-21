@@ -44,10 +44,10 @@ const Experience = () => {
     <div id="experience" className=" pt-[120px] w-full bg-white text-black">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-width-[1000px] w-full pb-8 text-center">
-          <p className="text-4xl font-semibold">
+          <div className="text-4xl font-semibold">
             Experience
             <hr className="bg-base-blue w-20 h-0.5 border-none mx-auto mt-1"></hr>
-          </p>
+          </div>
         </div>
         <div className="max-width-[1000px] w-full grid lg:grid-cols-2 py-10 px-20 text-lg">
           <div className="lg:mx-auto mx-0">
@@ -56,9 +56,9 @@ const Experience = () => {
               Education
             </h2>
             <div className="border-l-[3px] border-base-blue">
-              {expi.slice(0, 2).map((items) => {
+              {expi.slice(0, 2).map((items, i) => {
                 return (
-                  <div>
+                  <div key={i}>
                     <div className="flex ml-6 mb-10">
                       <div>
                         <FaCircle className="ml-[-33px] mt-[8px]" size={15} />
@@ -87,9 +87,9 @@ const Experience = () => {
               <IoBagRemove /> Work Experience
             </h2>
             <div className="border-l-[3px] border-base-blue">
-              {expi.slice(2).map((items) => {
+              {expi.slice(2).map((items, i) => {
                 return (
-                  <div>
+                  <div key={i}>
                     <div className="flex ml-6 mb-10">
                       <div>
                         <FaCircle className="ml-[-33px] mt-[8px]" size={15} />

@@ -1,6 +1,9 @@
 import self from "../assets/self.jpg";
+// import self_blur from "../assets/self_blur.jpg";
 import { BiRightArrow } from "react-icons/bi";
 import Typical from "react-typical";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Home = () => {
   return (
@@ -41,11 +44,18 @@ const Home = () => {
             </div>
           </div>
           <div className="pt-10 md:pt-0">
-            <img
+            <LazyLoadImage
+              src={self}
+              alt="..."
+              // placeholderSrc={self_blur}
+              effect="blur"
+              className="rounded-full md:w-5/6 w-3/5 mx-auto"
+            />
+            {/* <img
               src={self}
               alt="..."
               className="rounded-full md:w-5/6 w-3/5 mx-auto"
-            ></img>
+            ></img> */}
           </div>
         </div>
       </div>

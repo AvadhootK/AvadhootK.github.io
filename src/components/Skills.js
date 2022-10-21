@@ -172,10 +172,10 @@ const Skills = () => {
     <div id="skills" className="w-full pb-20 pt-[120px] bg-white text-black">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-width-[1000px] w-full pb-8 text-center">
-          <p className="text-4xl font-semibold mb-3">
+          <div className="text-4xl font-semibold mb-3">
             Skills
             <hr className="bg-base-blue w-20 h-0.5 border-none mx-auto mt-1"></hr>
-          </p>
+          </div>
         </div>
         {/* <div className="w-full grid md:grid-cols-3 grid-cols-1 gap-0 lg:pl-[130px] lg:px-0 px-10">
           <div className="col-span-2">
@@ -272,14 +272,14 @@ const Skills = () => {
         <div className="w-full grid md:grid-cols-2 grid-cols-1 md:gap-10">
           <div className="md:ml-20 mx-10 md:mx-0">
             {" "}
-            {total.slice(0, 2).map((skill) => {
-              return <div>{skill}</div>;
+            {total.slice(0, 2).map((skill, i) => {
+              return <div key={i}>{skill}</div>;
             })}
           </div>
           <div className="md:mr-10 mx-10 md:mx-0">
             {" "}
-            {total.slice(2).map((skill) => {
-              return <div>{skill}</div>;
+            {total.slice(2).map((skill, i) => {
+              return <div key={i}>{skill}</div>;
             })}
           </div>
         </div>

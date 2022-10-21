@@ -11,10 +11,10 @@ const About = () => {
           </div>
           <div className="py-10 w-full md:w-3/4">
             <div className="max-width-[1000px] w-full pb-8">
-              <p className="text-4xl font-semibold">
+              <div className="text-4xl font-semibold">
                 About Me
                 <hr className="bg-base-blue w-20 h-0.5 border-none ml-10 mt-1"></hr>
-              </p>
+              </div>
             </div>
             <p>
               I am Avadhoot Kulkarni, currently in Final year of IT Engineering.
