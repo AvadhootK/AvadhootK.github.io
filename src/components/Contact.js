@@ -2,15 +2,31 @@
 
 const Contact = () => {
   return (
-    <div id="contact" className="w-full bg-white text-black pt-[120px]">
+    <div
+      id="contact"
+      className="w-full bg-white text-black pt-[120px] relative"
+    >
+      <div className="custom-shape-divider-bottom-1666375306">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M892.25 114.72L0 0 0 120 1200 120 1200 0 892.25 114.72z"
+            className="shape-fill"
+          ></path>
+        </svg>
+      </div>
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-width-[1000px] w-full pb-8 text-center">
-          <div className="text-4xl font-semibold">
+          <div className="text-4xl font-semibold z-10">
             Contact Me
             <hr className="bg-base-blue w-20 h-0.5 border-none mx-auto mt-1"></hr>
           </div>
         </div>
-        <div className="lg:w-2/5 w-3/4 mx-auto pt-10 pb-20 ">
+        <div className="lg:w-2/5 w-3/4 mx-auto pt-10 pb-20 z-10">
           {/* <img src={code} alt="..."></img> */}
           <div className="rounded-md bg-base-blue text-white p-10 shadow-2xl">
             <form>

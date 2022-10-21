@@ -1,11 +1,16 @@
 import about from "../assets/aboutme.svg";
 import { AiOutlineDownload } from "react-icons/ai";
+import circle from "../assets/circle-scatter-haikei (3).svg";
 
 const About = () => {
   return (
-    <div id="about" className="w-full h-screen bg-white text-black pt-[120px]">
-      <div className="flex flex-col justify-center items-center w-full h-full">
-        <div className="max-width-[1000px] w-full grid md:grid-cols-2 py-10 px-20 text-lg">
+    <div
+      id="about"
+      className="w-full h-screen bg-white text-black pt-[120px] relative"
+    >
+      <img src={circle} alt="..." className="max-w-full h-auto absolute"></img>
+      <div className="flex flex-col justify-center items-center w-full h-full ">
+        <div className="max-width-[1000px] w-full grid md:grid-cols-2 py-10 px-20 text-lg z-10">
           <div>
             <img className="w-6/12 mx-auto" src={about} alt="..."></img>
           </div>

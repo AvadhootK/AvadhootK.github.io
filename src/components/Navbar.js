@@ -9,7 +9,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="navbarscrl z-10 fixed w-full h-[60px] flex justify-between items-center md:px-20 px-10 bg-white text-black text-[18px] opacity-90 ">
+    <div className="navbarscrl z-10 fixed w-full h-[60px] flex justify-between items-center md:px-20 px-10 bg-white text-black text-[18px] opacity-90 z-20">
       <div className="text-base-blue text-2xl font-semibold brand">
         <a href="/" className="logo">
           Avadhoot
