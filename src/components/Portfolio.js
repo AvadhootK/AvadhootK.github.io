@@ -11,6 +11,12 @@ import sketch3 from "../assets/sketches/sketch3.jpg";
 import sketch4 from "../assets/sketches/sketch4.jpg";
 import sketch5 from "../assets/sketches/sketch5.jpg";
 import sketch6 from "../assets/sketches/sketch6.jpg";
+import sketch1_blur from "../assets/sketches/sketch1_blur.jpg";
+import sketch2_blur from "../assets/sketches/sketch2_blur.jpg";
+import sketch3_blur from "../assets/sketches/sketch3_blur.jpg";
+import sketch4_blur from "../assets/sketches/sketch4_blur.jpg";
+import sketch5_blur from "../assets/sketches/sketch5_blur.jpg";
+import sketch6_blur from "../assets/sketches/sketch6_blur.jpg";
 import "tw-elements";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
@@ -302,7 +308,7 @@ const Portfolio = () => {
             <LazyLoadImage
               src={sketch1}
               alt="..."
-              // placeholderSrc={sketch1_blur}
+              placeholderSrc={sketch1_blur}
               effect="blur"
               className="block w-80 h-[450px]  border-4 border-black p-2"
             />
@@ -316,7 +322,7 @@ const Portfolio = () => {
             <LazyLoadImage
               src={sketch2}
               alt="..."
-              // placeholderSrc={sketch1_blur}
+              placeholderSrc={sketch2_blur}
               effect="blur"
               className="block w-80 h-[450px] border-4 border-black p-2"
             />
@@ -330,7 +336,7 @@ const Portfolio = () => {
             <LazyLoadImage
               src={sketch3}
               alt="..."
-              // placeholderSrc={sketch1_blur}
+              placeholderSrc={sketch3_blur}
               effect="blur"
               className="block w-80 h-[450px]  border-4 border-black p-2"
             />
@@ -344,7 +350,7 @@ const Portfolio = () => {
             <LazyLoadImage
               src={sketch4}
               alt="..."
-              // placeholderSrc={sketch1_blur}
+              placeholderSrc={sketch4_blur}
               effect="blur"
               className="block w-80 h-[450px]  border-4 border-black p-2"
             />
@@ -358,7 +364,7 @@ const Portfolio = () => {
             <LazyLoadImage
               src={sketch5}
               alt="..."
-              // placeholderSrc={sketch1_blur}
+              placeholderSrc={sketch5_blur}
               effect="blur"
               className="block w-80 h-[450px]  border-4 border-black p-2"
             />
@@ -368,13 +374,13 @@ const Portfolio = () => {
               alt="..."
             ></img> */}
           </div>
-          <div className="mx-auto">
+          <div className="mx-auto ">
             <LazyLoadImage
               src={sketch6}
               alt="..."
-              // placeholderSrc={sketch1_blur}
+              placeholderSrc={sketch6_blur}
               effect="blur"
-              className="block w-80 h-[450px]  border-4 border-black p-2"
+              className="block w-80 h-[450px] border-4 border-black p-2"
             />
             {/* <img
               src={sketch6}
