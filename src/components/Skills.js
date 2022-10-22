@@ -20,6 +20,9 @@ import ts from "../assets/ts.png";
 import express from "../assets/express.png";
 import django from "../assets/django.png";
 import dl from "../assets/dl.png";
+import bootstrap from "../assets/bootstrap.png";
+import tailwindcss from "../assets/tailwindcss.png";
+import nextjs from "../assets/nextjs.png";
 
 const Skills = () => {
   const frontend = (
@@ -43,25 +46,36 @@ const Skills = () => {
             Javascript
           </motion.button>
           <motion.button whileHover={{ scale: 1.1 }} className=" m-4 mx-auto">
-            <img src={react} alt="..." className="mx-auto"></img>
-            ReactJs
+            <img src={ts} alt="..." className="mx-auto"></img>
+            Typescript
           </motion.button>
-
+          <motion.button whileHover={{ scale: 1.1 }} className=" m-4 mx-auto">
+            <img src={bootstrap} alt="..." className="mx-auto"></img>
+            Bootstrap
+          </motion.button>
+          <motion.button whileHover={{ scale: 1.1 }} className=" m-4 mx-auto">
+            <img src={tailwindcss} alt="..." className="mx-auto"></img>
+            Tailwind CSS
+          </motion.button>
           <motion.button whileHover={{ scale: 1.1 }} className=" m-4 mx-auto">
             <img src={figma} alt="..." className="mx-auto"></img>
             Figma
           </motion.button>
           <motion.button whileHover={{ scale: 1.1 }} className=" m-4 mx-auto">
+            <img src={react} alt="..." className="mx-auto"></img>
+            React
+          </motion.button>
+          <motion.button whileHover={{ scale: 1.1 }} className=" m-4 mx-auto">
+            <img src={nextjs} alt="..." className="mx-auto"></img>
+            Next.js
+          </motion.button>
+          <motion.button whileHover={{ scale: 1.1 }} className=" m-4 mx-auto">
             <img src={node} alt="..." className="mx-auto"></img>
-            NodeJs
+            Node.js
           </motion.button>
           <motion.button whileHover={{ scale: 1.1 }} className=" m-4 mx-auto">
             <img src={express} alt="..." className="mx-auto"></img>
-            ExpressJs
-          </motion.button>
-          <motion.button whileHover={{ scale: 1.1 }} className=" m-4 mx-auto">
-            <img src={ts} alt="..." className="mx-auto"></img>
-            Typescript
+            Express.js
           </motion.button>
           <motion.button whileHover={{ scale: 1.1 }} className=" m-4 mx-auto">
             <img src={django} alt="..." className="mx-auto"></img>
@@ -89,7 +103,7 @@ const Skills = () => {
           </motion.button>
           <motion.button whileHover={{ scale: 1.1 }} className=" m-4 mx-auto">
             <img src={postgre} alt="..." className="mx-auto"></img>
-            PostgreSql
+            PostgreSQL
           </motion.button>
         </div>
       </div>
@@ -134,13 +148,6 @@ const Skills = () => {
             whileHover={{ scale: 1.1 }}
             className="px-2 m-2 mx-auto"
           >
-            <img src={blockchain} alt="..." className="mx-auto"></img>
-            Blockchain
-          </motion.button>
-          <motion.button
-            whileHover={{ scale: 1.1 }}
-            className="px-2 m-2 mx-auto"
-          >
             <img src={ai} alt="..." className="mx-auto"></img>
             Machine Learning
           </motion.button>
@@ -162,6 +169,13 @@ const Skills = () => {
           >
             <img src={ai} alt="..." className="mx-auto"></img>
             Artificial Intelligence
+          </motion.button>
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            className="px-2 m-2 mx-auto"
+          >
+            <img src={blockchain} alt="..." className="mx-auto"></img>
+            Blockchain
           </motion.button>
         </div>
       </div>
