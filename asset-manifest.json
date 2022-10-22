@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.04eef617.css",
-    "main.js": "/static/js/main.7f93d9c9.js",
+    "main.js": "/static/js/main.d9615cf5.js",
     "static/media/self.jpg": "/static/media/self.985b6dfa921919879be7.jpg",
     "static/media/work1.jpg": "/static/media/work1.e497bac5121e4fb371a3.jpg",
-    "static/media/sketch1.jpg": "/static/media/sketch1.7180510c665a058c5ddb.jpg",
-    "static/media/sketch6.jpg": "/static/media/sketch6.9012c84f07dbe77466a7.jpg",
-    "static/media/sketch4.jpg": "/static/media/sketch4.0af04b74f35ff0aafd22.jpg",
+    "static/media/sketch1.jpg": "/static/media/sketch1.e223f27583262e9bd1ed.jpg",
+    "static/media/sketch6.jpg": "/static/media/sketch6.b14ea2ebb7c5ba7c9d88.jpg",
+    "static/media/sketch4.jpg": "/static/media/sketch4.f64fcd6c63fcc66f1d65.jpg",
     "static/media/work6.jpg": "/static/media/work6.106e86008bc54f75d769.jpg",
-    "static/media/sketch2.jpg": "/static/media/sketch2.b230610e59df36208175.jpg",
     "static/media/work2.jpg": "/static/media/work2.90cdb09c233af767ecd7.jpg",
-    "static/media/sketch3.jpg": "/static/media/sketch3.cd5236b0bb60763267e1.jpg",
+    "static/media/sketch2.jpg": "/static/media/sketch2.2ad8f767170e8e060133.jpg",
+    "static/media/sketch3.jpg": "/static/media/sketch3.fc3421b30b616a3efd4a.jpg",
     "static/media/work3.jpg": "/static/media/work3.9681c1ebddf2668d7a10.jpg",
-    "static/media/sketch5.jpg": "/static/media/sketch5.f6b96cff7aca376ea17f.jpg",
+    "static/media/sketch5.jpg": "/static/media/sketch5.c6dec383e37a3c0f637c.jpg",
     "static/media/work4.jpg": "/static/media/work4.82aff82e0146e4853ab7.jpg",
     "static/media/work5.jpg": "/static/media/work5.597faa99f4bf8a56e6bc.jpg",
     "static/media/aboutme.svg": "/static/media/aboutme.7e15fdfeedeb653ba7301d39ae835c80.svg",
@@ -20,10 +20,10 @@
     "static/media/circle-scatter-haikei(1).svg": "/static/media/circle-scatter-haikei(1).8c2b3e640f501fe29d7cbf2d407244bc.svg",
     "static/media/circle-scatter-haikei (3).svg": "/static/media/circle-scatter-haikei (3).f220eae4a734f9c6da3a2facfa784772.svg",
     "main.04eef617.css.map": "/static/css/main.04eef617.css.map",
-    "main.7f93d9c9.js.map": "/static/js/main.7f93d9c9.js.map"
+    "main.d9615cf5.js.map": "/static/js/main.d9615cf5.js.map"
   },
   "entrypoints": [
     "static/css/main.04eef617.css",
-    "static/js/main.7f93d9c9.js"
+    "static/js/main.d9615cf5.js"
   ]
 }
