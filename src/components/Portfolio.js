@@ -298,13 +298,13 @@ const Portfolio = () => {
       </div> */}
       <div className="flex flex-col justify-center items-center w-full h-full pt-10 xl:px-52 md:px-10 lg:px-0 px-0">
         <div className="w-full grid lg:grid-cols-3 md:grid-cols-2 gap-14">
-          <div>
+          <div className="mx-auto">
             <LazyLoadImage
               src={sketch1}
               alt="..."
               // placeholderSrc={sketch1_blur}
               effect="blur"
-              className="block w-80 h-[450px] mx-auto border-4 border-black p-2"
+              className="block w-80 h-[450px]  border-4 border-black p-2"
             />
             {/* <img
               src={sketch1}
@@ -312,13 +312,13 @@ const Portfolio = () => {
               alt="..."
             ></img> */}
           </div>
-          <div>
+          <div className="mx-auto">
             <LazyLoadImage
               src={sketch2}
               alt="..."
               // placeholderSrc={sketch1_blur}
               effect="blur"
-              className="block w-80 h-[450px] mx-auto border-4 border-black p-2"
+              className="block w-80 h-[450px] border-4 border-black p-2"
             />
             {/* <img
               src={sketch2}
@@ -326,13 +326,13 @@ const Portfolio = () => {
               alt="..."
             ></img> */}
           </div>
-          <div>
+          <div className="mx-auto">
             <LazyLoadImage
               src={sketch3}
               alt="..."
               // placeholderSrc={sketch1_blur}
               effect="blur"
-              className="block w-80 h-[450px] mx-auto border-4 border-black p-2"
+              className="block w-80 h-[450px]  border-4 border-black p-2"
             />
             {/* <img
               src={sketch3}
@@ -340,13 +340,13 @@ const Portfolio = () => {
               alt="..."
             ></img> */}
           </div>
-          <div>
+          <div className="mx-auto">
             <LazyLoadImage
               src={sketch4}
               alt="..."
               // placeholderSrc={sketch1_blur}
               effect="blur"
-              className="block w-80 h-[450px] mx-auto border-4 border-black p-2"
+              className="block w-80 h-[450px]  border-4 border-black p-2"
             />
             {/* <img
               src={sketch4}
@@ -354,13 +354,13 @@ const Portfolio = () => {
               alt="..."
             ></img> */}
           </div>
-          <div>
+          <div className="mx-auto">
             <LazyLoadImage
               src={sketch5}
               alt="..."
               // placeholderSrc={sketch1_blur}
               effect="blur"
-              className="block w-80 h-[450px] mx-auto border-4 border-black p-2"
+              className="block w-80 h-[450px]  border-4 border-black p-2"
             />
             {/* <img
               src={sketch5}
@@ -368,13 +368,13 @@ const Portfolio = () => {
               alt="..."
             ></img> */}
           </div>
-          <div>
+          <div className="mx-auto">
             <LazyLoadImage
               src={sketch6}
               alt="..."
               // placeholderSrc={sketch1_blur}
               effect="blur"
-              className="block w-80 h-[450px] mx-auto border-4 border-black p-2"
+              className="block w-80 h-[450px]  border-4 border-black p-2"
             />
             {/* <img
               src={sketch6}
