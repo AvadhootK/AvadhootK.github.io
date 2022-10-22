@@ -1,17 +1,19 @@
 import { motion } from "framer-motion";
-import work1 from "../assets/work1.jpg";
-import work2 from "../assets/work2.jpg";
-import work3 from "../assets/work3.jpg";
-import work4 from "../assets/work4.jpg";
-import work5 from "../assets/work5.jpg";
-import work6 from "../assets/work6.jpg";
-import sketch1 from "../assets/sketch1.jpg";
-import sketch2 from "../assets/sketch2.jpg";
-import sketch3 from "../assets/sketch3.jpg";
-import sketch4 from "../assets/sketch4.jpg";
-import sketch5 from "../assets/sketch5.jpg";
-import sketch6 from "../assets/sketch6.jpg";
+import work1 from "../assets/work/work1.jpg";
+import work2 from "../assets/work/work2.jpg";
+import work3 from "../assets/work/work3.jpg";
+import work4 from "../assets/work/work4.jpg";
+import work5 from "../assets/work/work5.jpg";
+import work6 from "../assets/work/work6.jpg";
+import sketch1 from "../assets/sketches/sketch1.jpg";
+import sketch2 from "../assets/sketches/sketch2.jpg";
+import sketch3 from "../assets/sketches/sketch3.jpg";
+import sketch4 from "../assets/sketches/sketch4.jpg";
+import sketch5 from "../assets/sketches/sketch5.jpg";
+import sketch6 from "../assets/sketches/sketch6.jpg";
 import "tw-elements";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Portfolio = () => {
   return (
@@ -297,46 +299,88 @@ const Portfolio = () => {
       <div className="flex flex-col justify-center items-center w-full h-full pt-10 xl:px-52 md:px-10 lg:px-0 px-0">
         <div className="w-full grid lg:grid-cols-3 md:grid-cols-2 gap-14">
           <div>
-            <img
+            <LazyLoadImage
+              src={sketch1}
+              alt="..."
+              // placeholderSrc={sketch1_blur}
+              effect="blur"
+              className="block w-80 h-[450px] mx-auto border-4 border-black p-2"
+            />
+            {/* <img
               src={sketch1}
               className="block w-80 h-[450px] mx-auto border-4 border-black p-2"
               alt="..."
-            ></img>
+            ></img> */}
           </div>
           <div>
-            <img
+            <LazyLoadImage
+              src={sketch2}
+              alt="..."
+              // placeholderSrc={sketch1_blur}
+              effect="blur"
+              className="block w-80 h-[450px] mx-auto border-4 border-black p-2"
+            />
+            {/* <img
               src={sketch2}
               className="block w-80 mx-auto h-[450px] border-4 border-black p-2"
               alt="..."
-            ></img>
+            ></img> */}
           </div>
           <div>
-            <img
+            <LazyLoadImage
+              src={sketch3}
+              alt="..."
+              // placeholderSrc={sketch1_blur}
+              effect="blur"
+              className="block w-80 h-[450px] mx-auto border-4 border-black p-2"
+            />
+            {/* <img
               src={sketch3}
               className="block w-80 mx-auto h-[450px] border-4 border-black p-2"
               alt="..."
-            ></img>
+            ></img> */}
           </div>
           <div>
-            <img
+            <LazyLoadImage
+              src={sketch4}
+              alt="..."
+              // placeholderSrc={sketch1_blur}
+              effect="blur"
+              className="block w-80 h-[450px] mx-auto border-4 border-black p-2"
+            />
+            {/* <img
               src={sketch4}
               className="block w-80 mx-auto h-[450px] border-4 border-black p-2"
               alt="..."
-            ></img>
+            ></img> */}
           </div>
           <div>
-            <img
+            <LazyLoadImage
+              src={sketch5}
+              alt="..."
+              // placeholderSrc={sketch1_blur}
+              effect="blur"
+              className="block w-80 h-[450px] mx-auto border-4 border-black p-2"
+            />
+            {/* <img
               src={sketch5}
               className="block w-80 mx-auto h-[450px] border-4 border-black p-2"
               alt="..."
-            ></img>
+            ></img> */}
           </div>
           <div>
-            <img
+            <LazyLoadImage
+              src={sketch6}
+              alt="..."
+              // placeholderSrc={sketch1_blur}
+              effect="blur"
+              className="block w-80 h-[450px] mx-auto border-4 border-black p-2"
+            />
+            {/* <img
               src={sketch6}
               className="block w-80 mx-auto h-[450px] border-4 border-black p-2"
               alt="..."
-            ></img>
+            ></img> */}
           </div>
         </div>
       </div>
