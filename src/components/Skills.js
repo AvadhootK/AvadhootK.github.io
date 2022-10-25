@@ -63,7 +63,7 @@ const Skills = () => {
           </motion.button>
           <motion.button whileHover={{ scale: 1.1 }} className=" m-4 mx-auto">
             <img src={react} alt="..." className="mx-auto"></img>
-            React
+            React.js
           </motion.button>
           <motion.button whileHover={{ scale: 1.1 }} className=" m-4 mx-auto">
             <img src={nextjs} alt="..." className="mx-auto"></img>
