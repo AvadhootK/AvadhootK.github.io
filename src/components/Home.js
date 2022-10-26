@@ -25,7 +25,7 @@ const Home = () => {
       </div>
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <div className="max-width-[1000px] w-full grid md:grid-cols-2 justify-center items-center">
-          <div>
+          <div className="z-10">
             <p className="text-black text-2xl font-medium">Hello,</p>
             <h1 className="text-4xl font-bold text-black my-3">
               I'm Avadhoot Kulkarni
