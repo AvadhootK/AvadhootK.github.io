@@ -25,6 +25,15 @@ html{
     }
 }
 
+#loading{
+    width: 100%;
+    height: 100vh;
+    background: #fff url('./assets/preloader.gif') no-repeat center; 
+    position: fixed;
+    z-index: 9999;
+
+}
+
 .content-div,.feature-div{
     background-repeat: no-repeat;
     background-size: cover;

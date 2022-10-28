@@ -41,8 +41,18 @@
   });
     </script>
   </head>
-  <body>
+  <body onload="myFunction()">
+    <div id="loading"></div>
     <div id="root"></div>
     
+    <script>
+      var perloader = document.getElementById('loading');
+      function myFunction() {
+        setTimeout(()=>{
+          perloader.style.display = 'none';
+        },2000)
+        
+      }
+    </script>
   </body>
 </html>
