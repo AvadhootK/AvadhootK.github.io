@@ -30,7 +30,7 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="bg-white w-full h-screen relative overflow-hidden"
+      className="bg-white w-full h-screen relative overflow-hidden pb-20 md:pb-0 md:pt-0 pt-20"
     >
       {/* <div className="custom-shape-divider-top-1666372671">
         <div className="custom-shape-divider-bottom-1666373256">
@@ -54,7 +54,7 @@ const Home = () => {
             data-aos-delay="1200"
             className="absolute h-full md:w-1/3 w-8/12 top-0 right-0 bg-primaryLinear bottom-0"
           >
-            <h1 className="rotate-90 absolute top-[30%] md:top-[40%] right-[-25%] text-[#EAF2FA] text-3xl md:text-5xl font-extrabold">
+            <h1 className="rotate-90 absolute top-[35%] md:top-[40%] md:right-[-20%] right-[-40%] text-[#EAF2FA] text-3xl md:text-5xl font-extrabold">
               Avadhoot<span className="text-black">&nbsp; Kulkarni</span>
             </h1>
           </div>

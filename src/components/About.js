@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-full h-screen bg-bg_light_primary text-black relative overflow-hidden"
+      className="w-full pt-[70px] bg-bg_light_primary text-black relative overflow-hidden"
     >
       {/* <img src={circle} alt="..." className="max-w-full h-auto absolute"></img> */}
       <div className="flex flex-col justify-center items-center w-full h-full ">
