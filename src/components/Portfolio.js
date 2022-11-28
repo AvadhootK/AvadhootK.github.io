@@ -29,7 +29,10 @@ const Portfolio = () => {
     AOS.init();
   }, []);
   return (
-    <div id="portfolio" className=" w-full pb-20 pt-[80px] text-black bg-white">
+    <div
+      id="portfolio"
+      className=" w-full pb-20 pt-[80px] text-black bg-white overflow-hidden"
+    >
       <div className="mx-auto py-4 px-4 md:px-20 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <div data-aos="fade-down" data-aos-duration="1000">

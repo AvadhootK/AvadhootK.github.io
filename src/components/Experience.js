@@ -50,7 +50,7 @@ const Experience = () => {
   return (
     <div
       id="experience"
-      className=" pt-[90px] w-full bg-bg_light_primary text-black relative"
+      className=" pt-[90px] w-full bg-bg_light_primary text-black relative overflow-hidden"
     >
       {/* <img src={circle} alt="..." className="max-w-full h-auto absolute"></img> */}
       {/* <div className="custom-shape-divider-bottom-1666374861">

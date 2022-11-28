@@ -201,7 +201,10 @@ const Skills = () => {
     AOS.init();
   }, []);
   return (
-    <div id="skills" className="w-full pb-20 pt-[90px] bg-white text-black">
+    <div
+      id="skills"
+      className="w-full pb-20 pt-[90px] bg-white text-black overflow-hidden"
+    >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-width-[1000px] w-full pb-8 text-center">
           <div

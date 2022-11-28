@@ -8,7 +8,10 @@ const Contact = () => {
     AOS.init();
   }, []);
   return (
-    <div id="contact" className="w-full bg-white text-black pt-[90px] relative">
+    <div
+      id="contact"
+      className="w-full bg-white text-black pt-[90px] relative overflow-hidden"
+    >
       <div className="custom-shape-divider-bottom-1666375306">
         <svg
           data-name="Layer 1"
