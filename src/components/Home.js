@@ -1,14 +1,38 @@
-import self from "../assets/self.jpg";
+import React, { useEffect, useRef } from "react";
+import self from "../assets/0_self.jpg";
 // import self_blur from "../assets/self_blur.jpg";
 import { BiRightArrow } from "react-icons/bi";
-import Typical from "react-typical";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Typed from "typed.js";
 
 const Home = () => {
+  useEffect(() => {
+    AOS.init();
+    new Typed(el.current, {
+      strings: [
+        "Full Stack Developer.",
+        "AI\\ML enthusiast.",
+        "Blockchain\\Web3 enthusiast.",
+      ],
+      startDelay: 300,
+      typeSpeed: 80,
+      backSpeed: 80,
+      backDelay: 100,
+      smartBackspace: true,
+      loop: true,
+      showCursor: true,
+    });
+  }, []);
+  const el = useRef(null);
   return (
-    <div id="home" className="bg-white w-full h-screen relative">
-      <div className="custom-shape-divider-top-1666372671">
+    <div
+      id="home"
+      className="bg-white w-full h-screen relative overflow-hidden"
+    >
+      {/* <div className="custom-shape-divider-top-1666372671">
         <div className="custom-shape-divider-bottom-1666373256">
           <svg
             data-name="Layer 1"
@@ -22,29 +46,47 @@ const Home = () => {
             ></path>
           </svg>
         </div>
-      </div>
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+      </div> */}
+      <div className="max-w-[1000px] mx-auto px-8 flex flex-coljustify-center h-full">
         <div className="max-width-[1000px] w-full grid md:grid-cols-2 justify-center items-center">
-          <div className="z-10">
-            <p className="text-black text-2xl font-medium">Hello,</p>
-            <h1 className="text-4xl font-bold text-black my-3">
+          <div
+            data-aos="slide-left"
+            data-aos-delay="1200"
+            className="absolute h-full md:w-1/3 w-8/12 top-0 right-0 bg-primaryLinear bottom-0"
+          >
+            <h1 className="rotate-90 absolute top-[30%] md:top-[40%] right-[-25%] text-[#EAF2FA] text-3xl md:text-5xl font-extrabold">
+              Avadhoot<span className="text-black">&nbsp; Kulkarni</span>
+            </h1>
+          </div>
+          <div className="z-10 order-last md:order-first">
+            <p
+              className="text-black text-2xl font-medium"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              Hello,
+            </p>
+            <h1
+              className="text-4xl font-bold text-black my-3"
+              data-aos="fade-down"
+              data-aos-delay={300}
+              data-aos-duration="1000"
+            >
               I'm Avadhoot Kulkarni
             </h1>
-            <h2 className="text-base-blue text-3xl">
-              <Typical
-                loop={Infinity}
-                wrapper="b"
-                steps={[
-                  "Full Stack Developer.",
-                  1000,
-                  "Machine Learning enthusiast.",
-                  1000,
-                  "Blockchain & Web3 enthusiast.",
-                  1000,
-                ]}
-              ></Typical>
+            <h2
+              className="text-base-blue text-3xl"
+              data-aos="fade-down"
+              data-aos-delay={500}
+              data-aos-duration="1000"
+            >
+              <span ref={el}></span>
             </h2>
-            <div>
+            <div
+              data-aos="fade-up"
+              data-aos-delay={300}
+              data-aos-duration="1000"
+            >
               <a
                 className="text-white bg-base-blue group w-40 mt-14 px-6 py-3 my-2 flex items-center gap-2 border-2 justify-center 
                 border-white
@@ -52,18 +94,24 @@ const Home = () => {
                 hover:border-base-blue
                 hover:text-black"
                 href="#about"
+                style={{ borderRadius: "0.375rem 0.375rem 1.5rem" }}
               >
                 View Work
                 <BiRightArrow size={17} />
               </a>
             </div>
           </div>
-          <div className="pt-10 md:pt-0">
+          <div
+            className="pt-10 md:pt-0 z-20"
+            data-aos="fade-up"
+            data-aos-delay={300}
+            data-aos-duration="1000"
+          >
             <LazyLoadImage
               src={self}
               alt="..."
               // placeholderSrc={self_blur}
-              effect="blur"
+              // effect="blur"
               className="rounded-full md:w-5/6 w-3/5 mx-auto"
             />
             {/* <img

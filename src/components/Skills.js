@@ -1,4 +1,4 @@
-import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+// import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import { motion } from "framer-motion";
 import html from "../assets/icons/html.png";
@@ -23,10 +23,16 @@ import dl from "../assets/icons/dl.png";
 import bootstrap from "../assets/icons/bootstrap.png";
 import tailwindcss from "../assets/icons/tailwindcss.png";
 import nextjs from "../assets/icons/nextjs.png";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Skills = () => {
   const frontend = (
-    <div className="pb-4 boxshadow my-8">
+    <div
+      className="pb-4 boxshadow my-8"
+      style={{ borderRadius: "0.375rem 0.375rem 3rem" }}
+    >
       <h3 className="text-2xl text-base-blue py-4 font-medium lg:text-left text-center ml-0 md:ml-12">
         Web Development
       </h3>
@@ -86,7 +92,10 @@ const Skills = () => {
     </div>
   );
   const database = (
-    <div className="pb-4 boxshadow my-8">
+    <div
+      className="pb-4 boxshadow my-8"
+      style={{ borderRadius: "0.375rem 0.375rem 3rem" }}
+    >
       <h3 className="text-2xl text-base-blue font-medium py-4 lg:text-left text-center ml-0 md:ml-12">
         Database Management System
       </h3>
@@ -110,7 +119,10 @@ const Skills = () => {
     </div>
   );
   const programming = (
-    <div className="pb-4 boxshadow my-8">
+    <div
+      className="pb-4 boxshadow my-8"
+      style={{ borderRadius: "0.375rem 0.375rem 3rem" }}
+    >
       <h3 className="text-2xl text-base-blue font-medium py-4 lg:text-left text-center ml-0 md:ml-12">
         Programming
       </h3>
@@ -137,7 +149,10 @@ const Skills = () => {
     </div>
   );
   const other = (
-    <div className="pb-4 boxshadow my-8">
+    <div
+      className="pb-4 boxshadow my-8"
+      style={{ borderRadius: "0.375rem 0.375rem 3rem" }}
+    >
       <h3 className="text-2xl text-base-blue font-medium py-4 lg:text-left text-center ml-0 md:ml-12">
         Other
       </h3>
@@ -182,11 +197,19 @@ const Skills = () => {
     </div>
   );
   const total = [frontend, database, programming, other];
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div id="skills" className="w-full pb-20 pt-[120px] bg-white text-black">
+    <div id="skills" className="w-full pb-20 pt-[90px] bg-white text-black">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-width-[1000px] w-full pb-8 text-center">
-          <div className="text-4xl font-semibold mb-3">
+          <div
+            className="text-4xl font-semibold mb-3"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay={100}
+          >
             Skills
             <hr className="bg-base-blue w-20 h-0.5 border-none mx-auto mt-1"></hr>
           </div>
@@ -287,17 +310,35 @@ const Skills = () => {
           <div className="md:ml-20 mx-10 md:mx-0">
             {" "}
             {total.slice(0, 2).map((skill, i) => {
-              return <div key={i}>{skill}</div>;
+              return (
+                <div
+                  key={i}
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay={i * 300}
+                >
+                  {skill}
+                </div>
+              );
             })}
           </div>
           <div className="md:mr-10 mx-10 md:mx-0">
             {" "}
             {total.slice(2).map((skill, i) => {
-              return <div key={i}>{skill}</div>;
+              return (
+                <div
+                  key={i}
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay={i * 300}
+                >
+                  {skill}
+                </div>
+              );
             })}
           </div>
         </div>
-        <div className="w-full grid md:grid-cols-4 my-10 px-20">
+        {/* <div className="w-full grid md:grid-cols-4 my-10 px-20">
           <div className="w-full mx-auto md:mb-0 mb-10">
             <div className="w-40 mx-auto">
               <CircularProgressbar
@@ -377,7 +418,7 @@ const Skills = () => {
             </div>
             <h3 className="text-center pt-4 text-xl font-medium">DBMS</h3>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
