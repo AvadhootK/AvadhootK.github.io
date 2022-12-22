@@ -112,6 +112,7 @@ const Home = () => {
               alt="..."
               // placeholderSrc={self_blur}
               // effect="blur"
+              loading="lazy"
               className="rounded-full md:w-5/6 w-3/5 mx-auto"
             />
             {/* <img
