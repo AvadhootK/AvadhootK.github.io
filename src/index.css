@@ -149,3 +149,21 @@ html{
 .custom-shape-divider-bottom-1666375929 .shape-fill {
     fill: #B3D6FF;
 } */
+
+  .icon-style{
+    background-color: #78a3fa;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    cursor: pointer;
+    animation: movebtn 3s ease-in-out infinite;
+    transition: all .5s ease-in-out;
+  }
+  .icon-style:hover{
+    animation: none;
+    background: #fff;
+    color: #78a3fa;
+    border: 2px solid #78a3fa;
+  }

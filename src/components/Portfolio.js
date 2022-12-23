@@ -48,7 +48,7 @@ const Portfolio = () => {
             data-aos-delay={300}
           >
             <motion.div
-              style={{ backgroundImage: `url(${work2})` }}
+              style={{ backgroundImage: `url(${work2})`, loading: "lazy" }}
               className="shadow-md shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
               whileHover={{ scale: 1.1 }}
             >
@@ -68,7 +68,7 @@ const Portfolio = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <button className="text-center px-2 py-1 font-medium text-black text-sm">
+                    <button className="text-center px-2 py-1 font-medium text-black text-md">
                       View Project
                     </button>
                   </a>
@@ -76,7 +76,7 @@ const Portfolio = () => {
               </div>
             </motion.div>
             <motion.div
-              style={{ backgroundImage: `url(${work1})` }}
+              style={{ backgroundImage: `url(${work1})`, loading: "lazy" }}
               className="shadow-md shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
               whileHover={{ scale: 1.1 }}
             >
@@ -96,7 +96,7 @@ const Portfolio = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <button className="text-center px-2 py-1 font-medium text-black text-sm">
+                    <button className="text-center px-2 py-1 font-medium text-black text-md">
                       View Project
                     </button>
                   </a>
@@ -104,7 +104,7 @@ const Portfolio = () => {
               </div>
             </motion.div>
             <motion.div
-              style={{ backgroundImage: `url(${work3})` }}
+              style={{ backgroundImage: `url(${work3})`, loading: "lazy" }}
               className="shadow-md shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
               whileHover={{ scale: 1.1 }}
             >
@@ -124,7 +124,7 @@ const Portfolio = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <button className="text-center px-2 py-1 font-medium text-black text-sm">
+                    <button className="text-center px-2 py-1 font-medium text-black text-md">
                       View Project
                     </button>
                   </a>
@@ -132,7 +132,7 @@ const Portfolio = () => {
               </div>
             </motion.div>
             <motion.div
-              style={{ backgroundImage: `url(${work6})` }}
+              style={{ backgroundImage: `url(${work6})`, loading: "lazy" }}
               className="shadow-md shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
               whileHover={{ scale: 1.1 }}
             >
@@ -152,7 +152,7 @@ const Portfolio = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <button className="text-center px-2 py-1 font-medium text-black text-sm">
+                    <button className="text-center px-2 py-1 font-medium text-black text-md">
                       View Project
                     </button>
                   </a>
@@ -160,7 +160,7 @@ const Portfolio = () => {
               </div>
             </motion.div>
             <motion.div
-              style={{ backgroundImage: `url(${work5})` }}
+              style={{ backgroundImage: `url(${work5})`, loading: "lazy" }}
               className="shadow-md shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
               whileHover={{ scale: 1.1 }}
             >
@@ -180,7 +180,7 @@ const Portfolio = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <button className="text-center px-2 py-1 font-medium text-black text-sm">
+                    <button className="text-center px-2 py-1 font-medium text-black text-md">
                       View Project
                     </button>
                   </a>
@@ -188,7 +188,7 @@ const Portfolio = () => {
               </div>
             </motion.div>
             <motion.div
-              style={{ backgroundImage: `url(${work4})` }}
+              style={{ backgroundImage: `url(${work4})`, loading: "lazy" }}
               className="shadow-md shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
               whileHover={{ scale: 1.1 }}
             >
@@ -208,7 +208,7 @@ const Portfolio = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <button className="text-center px-2 py-1 font-medium text-black text-sm">
+                    <button className="text-center px-2 py-1 font-medium text-black text-md">
                       View Project
                     </button>
                   </a>
@@ -260,6 +260,7 @@ const Portfolio = () => {
               src={sketch1}
               className="block w-80 h-[450px] mx-auto border-4 border-black p-2"
               alt="..."
+              loading="lazy"
             ></img>
           </div>
           <div
@@ -279,6 +280,7 @@ const Portfolio = () => {
               src={sketch2}
               className="block w-80 mx-auto h-[450px] border-4 border-black p-2"
               alt="..."
+              loading="lazy"
             ></img>
           </div>
           <div
@@ -298,6 +300,7 @@ const Portfolio = () => {
               src={sketch3}
               className="block w-80 mx-auto h-[450px] border-4 border-black p-2"
               alt="..."
+              loading="lazy"
             ></img>
           </div>
           <div
@@ -317,6 +320,7 @@ const Portfolio = () => {
               src={sketch4}
               className="block w-80 mx-auto h-[450px] border-4 border-black p-2"
               alt="..."
+              loading="lazy"
             ></img>
           </div>
           <div
@@ -336,6 +340,7 @@ const Portfolio = () => {
               src={sketch5}
               className="block w-80 mx-auto h-[450px] border-4 border-black p-2"
               alt="..."
+              loading="lazy"
             ></img>
           </div>
           <div
@@ -355,6 +360,7 @@ const Portfolio = () => {
               src={sketch6}
               className="block w-80 mx-auto h-[450px] border-4 border-black p-2"
               alt="..."
+              loading="lazy"
             ></img>
           </div>
         </div>

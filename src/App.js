@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import PreLoader from "./components/PreLoader";
 import Skills from "./components/Skills";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   const [loading, setloading] = useState(true);
@@ -34,6 +35,7 @@ const App = () => {
       ) : (
         <div>
           {" "}
+          <ScrollToTop />
           <Navbar />
           <Home />
           <About />
