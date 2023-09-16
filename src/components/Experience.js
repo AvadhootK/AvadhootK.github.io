@@ -8,6 +8,12 @@ import "aos/dist/aos.css";
 const Experience = () => {
   const expi = [
     {
+      title: "MS, Computer Science",
+      org: "New York University, New York",
+      time: "2023-2025",
+      desc: "Responsibility:",
+    },
+    {
       title: "BE, Information Technology",
       org: "PVG's College Of Engineering & Technology, Pune",
       time: "2019-2023",
@@ -89,7 +95,7 @@ const Experience = () => {
               Education
             </h2>
             <div className="border-l-[3px] border-base-blue">
-              {expi.slice(0, 2).map((items, i) => {
+              {expi.slice(0, 3).map((items, i) => {
                 return (
                   <div key={i}>
                     <div className="flex ml-6 mb-10">
@@ -125,7 +131,7 @@ const Experience = () => {
               <IoBagRemove /> Work Experience
             </h2>
             <div className="border-l-[3px] border-base-blue">
-              {expi.slice(2).map((items, i) => {
+              {expi.slice(3).map((items, i) => {
                 return (
                   <div key={i}>
                     <div className="flex ml-6 mb-10">

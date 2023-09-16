@@ -36,12 +36,10 @@ const About = () => {
               data-aos-duration="1000"
               data-aos-delay={300}
             >
-              I am Avadhoot Kulkarni, currently in Final year of Information
-              Technology Engineering. I am passionate about Artificial
-              Intelligence, Machine Learning and Web Development with experience
-              working across full-stack web development. I love designing and
-              building products that can help organizations solve various
-              problems.
+              Hello, I'm Avadhoot Kulkarni, currently pursuing a master's degree in computer science at New York University. My academic journey has ignited a deep passion for machine learning and artificial intelligence, alongside my proficiency as a full-stack web developer with a strong desire to transform innovative ideas into reality.<br></br><br></br>
+              I have substantial hands-on experience in developing and deploying websites with various open-source frameworks like ReactJS, NodeJS, ExpressJS, MongoDB, and PostgreSQL. I have expertise in machine learning and deep learning technologies, with a particular focus on predictive modeling. I am passionate about designing and building products that can help organisations solve various problems.
+              <br></br><br></br>
+              I am eager to contribute my technical skills, problem-solving and communication skills, leadership and teamwork. I aspire to apply classroom learning, gain practical experience, and foster valuable connections.
             </p>
             <div>
               <button

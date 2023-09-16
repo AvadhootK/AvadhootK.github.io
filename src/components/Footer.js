@@ -12,7 +12,7 @@ const Footer = () => {
       icon: <HiOutlineMail size={23} />,
     },
     {
-      desc: "+91XXXXX",
+      desc: "+1XXXXX",
       icon: <FaPhoneAlt size={23} />,
     },
     {
