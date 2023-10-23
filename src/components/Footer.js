@@ -8,13 +8,17 @@ import { motion } from "framer-motion";
 const Footer = () => {
   const contact = [
     {
-      desc: "abc@gmail.com",
+      desc: "avadhootkulkarni06@gmail.com",
       icon: <HiOutlineMail size={23} />,
     },
     {
-      desc: "+1XXXXX",
-      icon: <FaPhoneAlt size={23} />,
+      desc: "ak10576@nyu.edu",
+      icon: <HiOutlineMail size={23} />,
     },
+    // {
+    //   desc: "+1XXXXX",
+    //   icon: <FaPhoneAlt size={23} />,
+    // },
     {
       desc: "AvadhootK.github.io",
       icon: <GiEarthAmerica size={23} />,

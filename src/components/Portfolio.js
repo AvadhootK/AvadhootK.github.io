@@ -223,7 +223,7 @@ const Portfolio = () => {
             data-aos="fade-down"
             data-aos-duration="1000"
           >
-            Featured Posts
+            Hobbies
             <hr className="bg-base-blue w-20 h-0.5 border-none mt-1 mx-auto"></hr>
           </div>
           <p
