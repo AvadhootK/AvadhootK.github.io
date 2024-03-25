@@ -10,13 +10,13 @@ const Experience = () => {
     {
       title: "MS, Computer Science",
       org: "New York University, New York",
-      time: "2023-2025",
+      time: "Sept 2023-May 2025",
       desc: "Responsibility:",
     },
     {
       title: "BE, Information Technology",
       org: "PVG's College Of Engineering & Technology, Pune",
-      time: "2019-2023",
+      time: "June 2019-May2023",
       desc: "Responsibility:",
     },
     // {
@@ -26,7 +26,7 @@ const Experience = () => {
     //   desc: "Responsibility:",
     // },
     {
-      title: "Software Engineer Intern",
+      title: "Data Engineer Intern",
       org: "FTB Communications",
       time: "Aug 2021-Aug 2022",
       desc: "",

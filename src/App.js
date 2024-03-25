@@ -10,6 +10,7 @@ import Portfolio from "./components/Portfolio";
 import PreLoader from "./components/PreLoader";
 import Skills from "./components/Skills";
 import ScrollToTop from "./components/ScrollToTop";
+import Volunteer from "./components/Volunteer";
 
 const App = () => {
   const [loading, setloading] = useState(true);
@@ -41,7 +42,8 @@ const App = () => {
           <About />
           <Skills />
           <Experience />
-          <Portfolio />
+          {/* <Portfolio /> */}
+          <Volunteer />
           <Contact />
           <Footer />
         </div>

@@ -36,9 +36,9 @@ const About = () => {
               data-aos-duration="1000"
               data-aos-delay={300}
             >
-              Hello, I'm Avadhoot Kulkarni, currently pursuing a master's degree in computer science at New York University. My academic journey has ignited a deep passion for machine learning and artificial intelligence, alongside my proficiency as a Full-stack web developer with a strong desire to transform innovative ideas into reality.
+              Hello, I'm Avadhoot Kulkarni, a graduate student majoring in Computer Science at New York University. My academic journey has ignited a deep passion for Machine Learning and Artificial Intelligence, alongside my proficiency as a Full-stack web developer with a strong desire to transform innovative ideas into reality.
               <br></br><br></br>
-I have substantial hands-on experience in machine learning and deep learning technologies and in developing and deploying websites utilizing various open-source frameworks. I am passionate about designing and building products that can help organizations solve various problems.
+              With extensive hands-on exposure to machine learning and deep learning technologies, coupled with a knack for developing and deploying websites utilizing diverse open-source frameworks, I am deeply committed to developing impactful solutions that address the various challenges faced by organizations.
 <br></br><br></br>
 I am eager to contribute my technical skills, problem-solving and communication skills, leadership and teamwork. I aspire to apply classroom learning, gain practical experience, and foster valuable connections.
             </p>

@@ -13,9 +13,8 @@ const Home = () => {
     AOS.init();
     new Typed(el.current, {
       strings: [
-        "Full Stack Developer.",
         "AI\\ML enthusiast.",
-        "Blockchain\\Web3 enthusiast.",
+        "Full Stack Developer.",
       ],
       startDelay: 300,
       typeSpeed: 80,
@@ -55,7 +54,7 @@ const Home = () => {
             className="absolute h-full md:w-1/3 w-8/12 top-0 right-0 bg-primaryLinear bottom-0"
           >
             <h1 className="rotate-90 absolute top-[35%] md:top-[40%] md:right-[-20%] right-[-40%] text-[#EAF2FA] text-3xl md:text-5xl font-extrabold">
-              Avadhoot<span className="text-black">&nbsp; Kulkarni</span>
+              <span className="text-black">Avadhoot&nbsp; Kulkarni</span>
             </h1>
           </div>
           <div className="z-10 order-last md:order-first">

@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="w-full bg-white text-black pt-[90px] relative overflow-hidden"
+      className="w-full bg-bg_light_primary text-black pt-[90px] relative overflow-hidden"
     >
       <div className="custom-shape-divider-bottom-1666375306">
         <svg

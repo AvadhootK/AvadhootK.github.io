@@ -12,7 +12,7 @@ const Footer = () => {
       icon: <HiOutlineMail size={23} />,
     },
     {
-      desc: "ak10576@nyu.edu",
+      desc: "avadhoot.kulkarni@nyu.edu",
       icon: <HiOutlineMail size={23} />,
     },
     // {
