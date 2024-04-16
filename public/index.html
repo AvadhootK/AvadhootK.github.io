@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Portfolio website created using create-react-app"
     />
     <link rel = "icon" href = "./favicon.png" type = "image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
     <link href="../src/index.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Avadhoot Kulkarni</title>
@@ -19,22 +20,22 @@
     $(window).scroll(function () {
       var scroll = $(window).scrollTop();
       if (scroll > 60) {
-        $(".navbarscrl").css("background", "#78a3fa");
-        $(".brand").css("color", "white");
+        $(".navbarscrl").css("background", "#0e1111");
+        $(".brand").css("color", "#18ffb0");
         $(".alinks").css("color", "white");
         $(".alinks").hover(function() {
-          $(this).css('color','white');
+          $(this).css('color','#18ffb0');
         },function() {
           $(this).css('color','white')
         })
       } else {
-        $(".navbarscrl").css("background", "white");
-        $(".brand").css("color", "#78a3fa");
-        $(".alinks").css("color", "black");
+        $(".navbarscrl").css("background", "black");
+        $(".brand").css("color", "#18ffb0");
+        $(".alinks").css("color", "white");
         $(".alinks").hover(function() {
-          $(this).css('color','#78a3fa');
+          $(this).css('color','#18ffb0');
         },function() {
-          $(this).css('color','black')
+          $(this).css('color','white')
         })
       }
     });

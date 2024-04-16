@@ -25,12 +25,12 @@ const Footer = () => {
     },
   ];
   return (
-    <div id="footer" className="w-full bg-black text-white">
+    <div id="footer" className="w-full bg-almost-black text-white">
       <div className="flex flex-col justify-center items-center w-full h-full md:px-20 px-0">
         <div className="max-width-[1000px] w-full grid md:grid-cols-3 py-10 px-20 text-md md:gap-20 gap-10">
           <div className="md:mx-auto mx-0">
             <h2 className="text-xl pb-4 font-semibold">Avadhoot Kulkarni</h2>
-            <div>This is my Personal Website!</div>
+            <div>Portfolio Website</div>
             <div className="mt-6 flex">
               {/* eslint-disable-next-line*/}
               <motion.a
@@ -71,13 +71,18 @@ const Footer = () => {
                 </a>
               </li>
               <li className="px-0">
+                <a className="hover:underline" href="#skills">
+                  Skills
+                </a>
+              </li>
+              <li className="px-0">
                 <a className="hover:underline" href="#experience">
                   Experience
                 </a>
               </li>
               <li className="px-0">
-                <a className="hover:underline" href="#skills">
-                  Skills
+                <a className="hover:underline" href="#portfolio">
+                  Projects
                 </a>
               </li>
               <li className="px-0">

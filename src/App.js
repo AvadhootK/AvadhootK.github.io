@@ -42,7 +42,7 @@ const App = () => {
           <About />
           <Skills />
           <Experience />
-          {/* <Portfolio /> */}
+          <Portfolio />
           <Volunteer />
           <Contact />
           <Footer />

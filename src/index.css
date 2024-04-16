@@ -32,14 +32,20 @@ html{
     height: 250px;
     cursor: pointer;
 }
-
 .content-div:hover{
     /* background-image: linear-gradient(
-        to right,
-        #3399ff,
-        #b3d6ff
+        to bottom right,
+        #f1f3f4,
+        #f1f3f4
     ) !important; */
-    background-image: linear-gradient(180deg, #B6CCF5 0.48%, #D5E3F1 100%) !important;
+    background-image: radial-gradient(
+        circle at 80% 90%, 
+        #0e1111 0%,   /* Blue at the center */
+        #0e1111 25%,     /* Black starts at 50% from the center */
+        #0e1111 100%     /* Black to the edge */
+      ) !important;
+    border: 1px solid #fff !important;
+    /* background-image: linear-gradient(180deg, #B6CCF5 0.48%, #D5E3F1 100%) !important; */
 } 
 /* .content-div:hover{
     background-image:linear-gradient(
@@ -54,7 +60,7 @@ html{
 }
 
 .boxshadow{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(255, 255, 255, 0.24) 0px 5px 15px;
 }
 
 /* .post{
@@ -125,7 +131,7 @@ html{
 }
 
 .custom-shape-divider-bottom-1666375306 .shape-fill {
-    fill: #06223F;
+    fill: #0e1111;
 }
 
 /* .custom-shape-divider-bottom-1666375929 {
@@ -151,8 +157,8 @@ html{
 } */
 
   .icon-style{
-    background-color: #78a3fa;
-    border: 2px solid #fff;
+    background-color: #18ffb0;
+    /* border: 2px solid #fff; */
     border-radius: 50%;
     height: 50px;
     width: 50px;
@@ -164,6 +170,10 @@ html{
   .icon-style:hover{
     animation: none;
     background: #fff;
-    color: #78a3fa;
-    border: 2px solid #78a3fa;
+    color: #18ffb0;
+    border: 2px solid #18ffb0;
+  }
+
+  .gradient-bg{
+    background-image: linear-gradient(to bottom left, #2cf8ff 0%, black 35%);
   }

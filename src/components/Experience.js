@@ -56,7 +56,7 @@ const Experience = () => {
   return (
     <div
       id="experience"
-      className=" pt-[90px] w-full bg-bg_light_primary text-black relative overflow-hidden"
+      className=" pt-[90px] w-full bg-black text-white relative overflow-hidden"
     >
       {/* <img src={circle} alt="..." className="max-w-full h-auto absolute"></img> */}
       {/* <div className="custom-shape-divider-bottom-1666374861">
@@ -75,12 +75,12 @@ const Experience = () => {
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-width-[1000px] w-full pb-8 text-center">
           <div
-            className="text-4xl font-semibold"
+            className="text-4xl text-green font-medium"
             data-aos="fade-down"
             data-aos-duration="1000"
           >
             Experience
-            <hr className="bg-base-blue w-20 h-0.5 border-none mx-auto mt-1"></hr>
+            <hr className="bg-green w-20 h-0.5 border-none mx-auto mt-1"></hr>
           </div>
         </div>
         <div className="max-width-[1000px] w-full grid lg:grid-cols-2 py-10 px-20 text-lg z-10">
@@ -94,20 +94,20 @@ const Experience = () => {
               <FaGraduationCap />
               Education
             </h2>
-            <div className="border-l-[3px] border-base-blue">
+            <div className="border-l-[3px] border-green">
               {expi.slice(0, 2).map((items, i) => {
                 return (
                   <div key={i}>
                     <div className="flex ml-6 mb-10">
                       <div>
-                        <FaCircle className="ml-[-33px] mt-[8px]" size={15} />
+                        <FaCircle className="ml-[-32.5px] mt-[8px]" size={15} />
                       </div>
-                      <div className="text-neutral-500">
-                        <h2 className="text-2xl text-base-blue font-medium">
+                      <div className="text-off-white">
+                        <h2 className="text-2xl text-green font-medium">
                           {items.title}
                         </h2>
                         <div>
-                          <span className="text-black">{items.org}</span>
+                          <span className="text-off-white">{items.org}</span>
                         </div>
                         <div className="flex items-center gap-2">
                           <FaRegCalendarAlt />
@@ -130,20 +130,20 @@ const Experience = () => {
             <h2 className="text-3xl font-medium mb-10 mt-10 lg:mt-0 flex items-center gap-3">
               <IoBagRemove /> Work Experience
             </h2>
-            <div className="border-l-[3px] border-base-blue">
+            <div className="border-l-[3px] border-green">
               {expi.slice(2).map((items, i) => {
                 return (
                   <div key={i}>
                     <div className="flex ml-6 mb-10">
                       <div>
-                        <FaCircle className="ml-[-33px] mt-[8px]" size={15} />
+                        <FaCircle className="ml-[-32.5px] mt-[8px]" size={15} />
                       </div>
-                      <div className="text-neutral-500">
-                        <h2 className="text-2xl text-base-blue font-medium">
+                      <div className="text-off-white">
+                        <h2 className="text-2xl text-green font-medium">
                           {items.title}
                         </h2>
                         <div>
-                          <span className="text-black">{items.org}</span>
+                          <span className="text-off-white">{items.org}</span>
                         </div>
                         <div className="flex items-center gap-2">
                           <FaRegCalendarAlt />

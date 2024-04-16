@@ -4,6 +4,7 @@ import { IoBagRemove } from "react-icons/io5";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import volunteer from "../assets/volunteer.svg";
 
 const Volunteer = () => {
   const expi = [
@@ -30,38 +31,41 @@ const Volunteer = () => {
     AOS.init();
   }, []);
   return (
-<div id="volunteer"className="flex flex-col justify-center items-center w-full h-full pt-20">
+<div id="volunteer"className="flex flex-col justify-center items-center w-full h-full pt-20 bg-black text-white">
         <div className="max-width-[1000px] w-full pb-8 text-center">
           <div
-            className="text-4xl font-semibold"
+            className="text-4xl text-green font-medium"
             data-aos="fade-down"
             data-aos-duration="1000"
           >
             Volunteer Experience
-            <hr className="bg-base-blue w-20 h-0.5 border-none mx-auto mt-1"></hr>
+            <hr className="bg-green w-20 h-0.5 border-none mx-auto mt-1"></hr>
           </div>
         </div>
         <div className="max-width-[1000px] w-full grid lg:grid-cols-2 py-10 px-20 text-lg z-10">
+        <div>
+            <img className="w-6/12 mx-auto" src={volunteer} alt="..."></img>
+          </div>
           <div
             className="lg:mx-auto mx-0"
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-delay={300}
           >
-            <div className="border-l-[3px] border-base-blue">
+            <div className="border-l-[3px] border-green">
               {expi.slice(0, ).map((items, i) => {
                 return (
                   <div key={i}>
                     <div className="flex ml-6 mb-10">
                       <div>
-                        <FaCircle className="ml-[-33px] mt-[8px]" size={15} />
+                        <FaCircle className="ml-[-32.5px] mt-[8px]" size={15} />
                       </div>
-                      <div className="text-neutral-500">
-                        <h2 className="text-2xl text-base-blue font-medium">
+                      <div className="text-0ff-white">
+                        <h2 className="text-2xl text-green font-medium">
                           {items.title}
                         </h2>
                         <div>
-                          <span className="text-black">{items.org}</span>
+                          <span className="text-off-white">{items.org}</span>
                         </div>
                         <div className="flex items-center gap-2">
                           <FaRegCalendarAlt />

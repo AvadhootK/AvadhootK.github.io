@@ -1,0 +1,129 @@
+<div className="flex flex-col justify-center items-center w-full h-full pt-10 xl:px-52 md:px-10 lg:px-0 px-0">
+        <div
+          className="w-full grid lg:grid-cols-3 md:grid-cols-2 gap-14"
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay={300}
+        >
+          <div
+            className="mx-auto"
+            // data-aos="fade-right"
+            // data-aos-duration="1000"
+            // data-aos-delay={300}
+          >
+            {/* <LazyLoadImage
+              src={sketch1}
+              alt="..."
+              placeholderSrc={sketch1_blur}
+              effect="blur"
+              className="block w-80 h-[450px]  border-4 border-black p-2"
+            /> */}
+            <img
+              src={sketch1}
+              className="block w-80 h-[450px] mx-auto border-4 border-black p-2"
+              alt="..."
+              loading="lazy"
+            ></img>
+          </div>
+          <div
+            className="mx-auto"
+            // data-aos="fade-down"
+            // data-aos-duration="1000"
+            // data-aos-delay={300}
+          >
+            {/* <LazyLoadImage
+              src={sketch2}
+              alt="..."
+              placeholderSrc={sketch2_blur}
+              effect="blur"
+              className="block w-80 h-[450px] border-4 border-black p-2"
+            /> */}
+            <img
+              src={sketch2}
+              className="block w-80 mx-auto h-[450px] border-4 border-black p-2"
+              alt="..."
+              loading="lazy"
+            ></img>
+          </div>
+          <div
+            className="mx-auto"
+            // data-aos="fade-left"
+            // data-aos-duration="1000"
+            // data-aos-delay={300}
+          >
+            {/* <LazyLoadImage
+              src={sketch3}
+              alt="..."
+              placeholderSrc={sketch3_blur}
+              effect="blur"
+              className="block w-80 h-[450px]  border-4 border-black p-2"
+            /> */}
+            <img
+              src={sketch3}
+              className="block w-80 mx-auto h-[450px] border-4 border-black p-2"
+              alt="..."
+              loading="lazy"
+            ></img>
+          </div>
+          <div
+            className="mx-auto"
+            // data-aos="fade-right"
+            // data-aos-duration="1000"
+            // data-aos-delay={300}
+          >
+            {/* <LazyLoadImage
+              src={sketch4}
+              alt="..."
+              placeholderSrc={sketch4_blur}
+              effect="blur"
+              className="block w-80 h-[450px]  border-4 border-black p-2"
+            /> */}
+            <img
+              src={sketch4}
+              className="block w-80 mx-auto h-[450px] border-4 border-black p-2"
+              alt="..."
+              loading="lazy"
+            ></img>
+          </div>
+          <div
+            className="mx-auto"
+            // data-aos="fade-up"
+            // data-aos-duration="1000"
+            // data-aos-delay={300}
+          >
+            {/* <LazyLoadImage
+              src={sketch5}
+              alt="..."
+              placeholderSrc={sketch5_blur}
+              effect="blur"
+              className="block w-80 h-[450px]  border-4 border-black p-2"
+            /> */}
+            <img
+              src={sketch5}
+              className="block w-80 mx-auto h-[450px] border-4 border-black p-2"
+              alt="..."
+              loading="lazy"
+            ></img>
+          </div>
+          <div
+            className="mx-auto"
+            // data-aos="fade-left"
+            // data-aos-duration="1000"
+            // data-aos-delay={300}
+          >
+            {/* <LazyLoadImage
+              src={sketch6}
+              alt="..."
+              placeholderSrc={sketch6_blur}
+              effect="blur"
+              className="block w-80 h-[450px] border-4 border-black p-2"
+            /> */}
+            <img
+              src={sketch6}
+              className="block w-80 mx-auto h-[450px] border-4 border-black p-2"
+              alt="..."
+              loading="lazy"
+            ></img>
+          </div>
+        </div>
+      </div>

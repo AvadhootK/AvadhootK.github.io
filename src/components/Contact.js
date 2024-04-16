@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="w-full bg-bg_light_primary text-black pt-[90px] relative overflow-hidden"
+      className="w-full bg-black text-white pt-[90px] relative overflow-hidden"
     >
       <div className="custom-shape-divider-bottom-1666375306">
         <svg
@@ -27,12 +27,12 @@ const Contact = () => {
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-width-[1000px] w-full pb-8 text-center">
           <div
-            className="text-4xl font-semibold z-10"
+            className="text-4xl font-medium text-green z-10"
             data-aos="fade-down"
             data-aos-duration="1000"
           >
             Contact Me
-            <hr className="bg-base-blue w-20 h-0.5 border-none mx-auto mt-1"></hr>
+            <hr className="bg-green w-20 h-0.5 border-none mx-auto mt-1"></hr>
           </div>
         </div>
         <div
@@ -113,9 +113,9 @@ const Contact = () => {
                   text-lg
             py-2.5
             mx-auto
-            text-white
-            bg-black
-            hover:bg-black
+            text-black
+            bg-green
+            hover:bg-white
             transition-colors
             duration-150
             focus:shadow-outline

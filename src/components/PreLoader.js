@@ -12,7 +12,7 @@ function PreLoader() {
     },
   };
   return (
-    <div className="flex h-screen">
+    <div className="flex bg-almost-black h-screen">
       <div className="m-auto">
         {" "}
         <Lottie options={defaultOptions} height={200} width={200} />

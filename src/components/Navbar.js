@@ -9,8 +9,8 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="navbarscrl fixed w-full h-[60px] flex justify-between items-center md:px-20 px-10 bg-white text-black text-[18px] opacity-90 z-30">
-      <div className="text-base-blue text-2xl font-semibold brand">
+    <div className="navbarscrl fixed w-full h-[60px] flex justify-between items-center md:px-20 px-10 bg-black text-white text-[18px] opacity-90 z-30">
+      <div className="text-green text-2xl font-medium brand">
         <a href="/" className="logo">
           Avadhoot
         </a>
@@ -19,32 +19,37 @@ const Navbar = () => {
       {/* menu */}
       <ul className="navbar-nav hidden lg:flex activenav">
         <li>
-          <a className="hover:text-base-blue alinks" href="#home">
+          <a className="hover:text-green alinks" href="#home">
             Home
           </a>
         </li>
         <li>
-          <a className="hover:text-base-blue alinks" href="#about">
+          <a className="hover:text-green alinks" href="#about">
             About
           </a>
         </li>
         <li>
-          <a className="hover:text-base-blue alinks" href="#skills">
+          <a className="hover:text-green alinks" href="#skills">
             Skills
           </a>
         </li>
         <li>
-          <a className="hover:text-base-blue alinks" href="#experience">
+          <a className="hover:text-green alinks" href="#experience">
             Experience
           </a>
         </li>
         <li>
-          <a className="hover:text-base-blue alinks" href="#volunteer">
+          <a className="hover:text-green alinks" href="#portfolio">
+            Projects
+          </a>
+        </li>
+        <li>
+          <a className="hover:text-green alinks" href="#volunteer">
             Volunteer Experience
           </a>
         </li>
         <li>
-          <a className="hover:text-base-blue alinks" href="#contact">
+          <a className="hover:text-green alinks" href="#contact">
             Contact
           </a>
         </li>
@@ -60,7 +65,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 right-0 w-2/5 h-screen bg-base-blue text-white flex flex-col pt-20 items-end pr-5"
+            : "absolute top-0 right-0 w-2/5 h-screen bg-almost-black text-white flex flex-col pt-20 items-end pr-5"
         }
       >
         <motion.li className="py-2 text-lg" whileHover={{ translateX: -13 }}>
@@ -76,7 +81,7 @@ const Navbar = () => {
           <a href="#experience">Experience</a>
         </motion.li>
         <motion.li className="py-2 text-lg " whileHover={{ translateX: -13 }}>
-          <a href="#volunteer">Volunteer Experience</a>
+          <a href="#volunteer">Volunteer<br></br> Experience</a>
         </motion.li>
         <motion.li className="py-2 text-lg " whileHover={{ translateX: -13 }}>
           <a href="#contact">Contact</a>

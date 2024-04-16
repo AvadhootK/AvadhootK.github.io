@@ -1,4 +1,4 @@
-import about from "../assets/aboutme.svg";
+import about from "../assets/aboutme2.svg";
 import { AiOutlineDownload } from "react-icons/ai";
 // import circle from "../assets/circle-scatter-haikei (3).svg";
 import React, { useEffect } from "react";
@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-full pt-[70px] bg-bg_light_primary text-black relative overflow-hidden"
+      className="w-full pt-[70px] bg-black text-white relative overflow-hidden"
     >
       {/* <img src={circle} alt="..." className="max-w-full h-auto absolute"></img> */}
       <div className="flex flex-col justify-center items-center w-full h-full ">
@@ -23,12 +23,12 @@ const About = () => {
           <div className="py-10 w-full md:w-3/4">
             <div className="max-width-[1000px] w-full pb-8">
               <div
-                className="text-4xl font-semibold"
+                className="text-4xl text-green font-medium"
                 data-aos="fade-down"
                 data-aos-duration="1000"
               >
                 About Me
-                <hr className="bg-base-blue w-20 h-0.5 border-none ml-10 mt-1"></hr>
+                <hr className="bg-green w-20 h-0.5 border-none ml-8 mt-1"></hr>
               </div>
             </div>
             <p
@@ -44,7 +44,7 @@ I am eager to contribute my technical skills, problem-solving and communication 
             </p>
             <div>
               <button
-                className="text-white bg-base-blue group mt-14 px-3 py-3 my-2 flex items-center gap-2"
+                className="text-black bg-green group mt-14 px-3 py-3 my-2 flex items-center gap-2"
                 style={{ borderRadius: "0.375rem 0.375rem 1.5rem" }}
                 data-aos="fade-up"
                 data-aos-delay={300}

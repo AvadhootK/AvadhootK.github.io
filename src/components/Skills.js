@@ -30,7 +30,7 @@ import "aos/dist/aos.css";
 const Skills = () => {
   const frontend = (
     <div
-      className="pb-4 boxshadow my-8"
+      className="pb-4 boxshadow my-8 border-white"
       style={{ borderRadius: "0.375rem 0.375rem 3rem" }}
     >
       <h3 className="text-2xl text-base-blue py-4 font-medium lg:text-left text-center ml-0 md:ml-12">
@@ -203,18 +203,18 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="w-full pb-20 pt-[90px] bg-white text-black overflow-hidden"
+      className="w-full pb-20 pt-[90px] bg-black text-white overflow-hidden"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-width-[1000px] w-full pb-8 text-center">
           <div
-            className="text-4xl font-semibold mb-3"
+            className="text-4xl text-green font-medium mb-3"
             data-aos="fade-down"
             data-aos-duration="1000"
             data-aos-delay={100}
           >
             Skills
-            <hr className="bg-base-blue w-20 h-0.5 border-none mx-auto mt-1"></hr>
+            <hr className="bg-green w-16 h-0.5 border-none mx-auto mt-1"></hr>
           </div>
         </div>
         {/* <div className="w-full grid md:grid-cols-3 grid-cols-1 gap-0 lg:pl-[130px] lg:px-0 px-10">

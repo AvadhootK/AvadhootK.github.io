@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
-import self from "../assets/0_self.jpg";
+// import self from "../assets/0_self.jpg";
+import self from "../assets/image.jpg";
 // import self_blur from "../assets/self_blur.jpg";
 import { BiRightArrow } from "react-icons/bi";
 import { LazyLoadImage } from "react-lazy-load-image-component";
@@ -29,7 +30,7 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="bg-white w-full h-screen relative overflow-hidden pb-20 md:pb-0 md:pt-0 pt-20"
+      className="bg-black w-full h-screen relative overflow-hidden pb-20 md:pb-0 md:pt-0 pt-20"
     >
       {/* <div className="custom-shape-divider-top-1666372671">
         <div className="custom-shape-divider-bottom-1666373256">
@@ -51,22 +52,22 @@ const Home = () => {
           <div
             data-aos="slide-left"
             data-aos-delay="1200"
-            className="absolute h-full md:w-1/3 w-8/12 top-0 right-0 bg-primaryLinear bottom-0"
+            className="absolute h-full md:w-1/3 w-8/12 top-0 right-0 gradient-bg bottom-0"
           >
             <h1 className="rotate-90 absolute top-[35%] md:top-[47%] md:right-[-20%] right-[-40%] text-[#EAF2FA] text-3xl md:text-5xl font-extrabold">
-              <span className="text-black">Avadhoot&nbsp; Kulkarni</span>
+              <span className="text-white">Avadhoot&nbsp; Kulkarni</span>
             </h1>
           </div>
           <div className="z-10 order-last md:order-first">
             <p
-              className="text-black text-2xl font-medium"
+              className="text-white text-2xl font-medium"
               data-aos="fade-down"
               data-aos-duration="1000"
             >
               Hello,
             </p>
             <h1
-              className="text-4xl font-bold text-black my-3"
+              className="text-4xl font-bold text-white my-3"
               data-aos="fade-down"
               data-aos-delay={300}
               data-aos-duration="1000"
@@ -74,7 +75,7 @@ const Home = () => {
               I'm Avadhoot Kulkarni
             </h1>
             <h2
-              className="text-base-blue text-3xl"
+              className="text-green text-3xl"
               data-aos="fade-down"
               data-aos-delay={500}
               data-aos-duration="1000"
@@ -87,10 +88,10 @@ const Home = () => {
               data-aos-duration="1000"
             >
               <a
-                className="text-white bg-base-blue group w-40 mt-14 px-6 py-3 my-2 flex items-center gap-2 border-2 justify-center 
-                border-white
+                className="text-black bg-green group w-40 mt-14 px-6 py-3 my-2 flex items-center gap-2 border-2 justify-center 
+                border-black
                 hover:bg-white
-                hover:border-base-blue
+                hover:border-black
                 hover:text-black"
                 href="#about"
                 style={{ borderRadius: "0.375rem 0.375rem 1.5rem" }}
