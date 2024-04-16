@@ -30,7 +30,7 @@ const Volunteer = () => {
     AOS.init();
   }, []);
   return (
-<div className="flex flex-col justify-center items-center w-full h-full pt-20">
+<div id="volunteer"className="flex flex-col justify-center items-center w-full h-full pt-20">
         <div className="max-width-[1000px] w-full pb-8 text-center">
           <div
             className="text-4xl font-semibold"

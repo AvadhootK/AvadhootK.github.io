@@ -39,8 +39,8 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a className="hover:text-base-blue alinks" href="#portfolio">
-            Portfolio
+          <a className="hover:text-base-blue alinks" href="#volunteer">
+            Volunteer Experience
           </a>
         </li>
         <li>
@@ -76,7 +76,7 @@ const Navbar = () => {
           <a href="#experience">Experience</a>
         </motion.li>
         <motion.li className="py-2 text-lg " whileHover={{ translateX: -13 }}>
-          <a href="#portfolio">Portfolio</a>
+          <a href="#volunteer">Volunteer Experience</a>
         </motion.li>
         <motion.li className="py-2 text-lg " whileHover={{ translateX: -13 }}>
           <a href="#contact">Contact</a>

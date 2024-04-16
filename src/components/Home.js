@@ -13,7 +13,7 @@ const Home = () => {
     AOS.init();
     new Typed(el.current, {
       strings: [
-        "AI\\ML enthusiast.",
+        "Machine Learning\\Data Science enthusiast.",
         "Full Stack Developer.",
       ],
       startDelay: 300,
@@ -53,7 +53,7 @@ const Home = () => {
             data-aos-delay="1200"
             className="absolute h-full md:w-1/3 w-8/12 top-0 right-0 bg-primaryLinear bottom-0"
           >
-            <h1 className="rotate-90 absolute top-[35%] md:top-[40%] md:right-[-20%] right-[-40%] text-[#EAF2FA] text-3xl md:text-5xl font-extrabold">
+            <h1 className="rotate-90 absolute top-[35%] md:top-[47%] md:right-[-20%] right-[-40%] text-[#EAF2FA] text-3xl md:text-5xl font-extrabold">
               <span className="text-black">Avadhoot&nbsp; Kulkarni</span>
             </h1>
           </div>
