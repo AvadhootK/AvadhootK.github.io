@@ -52,7 +52,7 @@ const Home = () => {
           <div
             data-aos="slide-left"
             data-aos-delay="1200"
-            className="absolute h-full md:w-1/3 w-8/12 top-0 right-0 gradient-bg bottom-0"
+            className="absolute h-full md:w-1/3 w-8/12 top-0 right-0 bottom-0"
           >
             <h1 className="rotate-90 absolute top-[35%] md:top-[47%] md:right-[-20%] right-[-40%] text-[#EAF2FA] text-3xl md:text-5xl font-extrabold">
               <span className="text-white">Avadhoot&nbsp; Kulkarni</span>
