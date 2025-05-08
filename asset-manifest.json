@@ -1,28 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea26c863.css",
-    "main.js": "/static/js/main.7e0192af.js",
-    "static/media/workimg1.jpg": "/static/media/workimg1.c4c7d8bd196f38151847.jpg",
-    "static/media/workimg2.jpg": "/static/media/workimg2.c2b37419981ff5df5c31.jpg",
-    "static/media/workimg3.jpg": "/static/media/workimg3.602972ae2249a1690763.jpg",
-    "static/media/0_sketch1.jpg": "/static/media/0_sketch1.cf33cf31a6cb7ed6d7ae.jpg",
-    "static/media/workimg5.jpg": "/static/media/workimg5.0869b092811f56f87e8d.jpg",
-    "static/media/5_sketch6.jpg": "/static/media/5_sketch6.a601e74339927eb0c502.jpg",
-    "static/media/3_sketch4.jpg": "/static/media/3_sketch4.5517f76ba0d849b6ee3e.jpg",
-    "static/media/2_sketch3.jpg": "/static/media/2_sketch3.7bcf176a118135008654.jpg",
-    "static/media/1_sketch2.jpg": "/static/media/1_sketch2.15cc721228929b2f5efe.jpg",
-    "static/media/workimg6.jpg": "/static/media/workimg6.97042f4f2b11c816d121.jpg",
-    "static/media/4_sketch5.jpg": "/static/media/4_sketch5.ab372208e65a6f0fafe0.jpg",
+    "main.css": "/static/css/main.7fd524a5.css",
+    "main.js": "/static/js/main.53ac9f5b.js",
     "static/media/image.jpg": "/static/media/image.a0237ca0fa4f0f452471.jpg",
-    "static/media/workimg4.jpg": "/static/media/workimg4.08b8b0683780effe3a16.jpg",
-    "static/media/volunteer.svg": "/static/media/volunteer.902a831cad6225699b51997c0c9040da.svg",
-    "static/media/aboutme2.svg": "/static/media/aboutme2.740cc4938b07a9061e807452dcf161ca.svg",
+    "static/media/project1.jpeg": "/static/media/project1.ac371ba54da270551941.jpeg",
+    "static/media/project4.jpg": "/static/media/project4.4940bbd32ea65c41cc3a.jpg",
+    "static/media/project3.jpg": "/static/media/project3.d38083738bd886195c5e.jpg",
+    "static/media/project2.jpg": "/static/media/project2.8e75967472ffb9665103.jpg",
+    "static/media/project5.jpg": "/static/media/project5.7caaeef16e8c845143e7.jpg",
+    "static/media/project6.jpg": "/static/media/project6.3db32d5375836433c711.jpg",
     "index.html": "/index.html",
-    "main.ea26c863.css.map": "/static/css/main.ea26c863.css.map",
-    "main.7e0192af.js.map": "/static/js/main.7e0192af.js.map"
+    "main.7fd524a5.css.map": "/static/css/main.7fd524a5.css.map",
+    "main.53ac9f5b.js.map": "/static/js/main.53ac9f5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea26c863.css",
-    "static/js/main.7e0192af.js"
+    "static/css/main.7fd524a5.css",
+    "static/js/main.53ac9f5b.js"
   ]
 }
