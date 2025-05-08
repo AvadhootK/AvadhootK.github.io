@@ -1,23 +1,21 @@
-import React from "react";
-import Lottie from "react-lottie";
-import * as animationData from "../assets/41394-preloader-infinity-design.json";
+import React, { useEffect, useState } from "react";
+import Lottie from "lottie-react";
+import preloaderAnimation from "../assets/preloader.json";
 
 function PreLoader() {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
+  const [showLoader, setShowLoader] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setShowLoader(false), 2000);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <div className="flex bg-almost-black h-screen">
-      <div className="m-auto">
-        {" "}
-        <Lottie options={defaultOptions} height={200} width={200} />
+    showLoader && (
+      <div className="fixed inset-0 z-50 bg-white flex items-center justify-center">
+        <Lottie animationData={preloaderAnimation} loop={true} className="w-32 h-32" />
       </div>
-    </div>
+    )
   );
 }
 

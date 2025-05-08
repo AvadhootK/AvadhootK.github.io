@@ -10,124 +10,54 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="w-full bg-black text-white pt-[90px] relative overflow-hidden"
+      className="w-full bg-neutral-50 text-black pb-16"
     >
-      <div className="custom-shape-divider-bottom-1666375306">
-        <svg
-          data-name="Layer 1"
-          viewBox="0 0 1200 120"
-          preserveAspectRatio="none"
-        >
-          <path
-            d="M892.25 114.72L0 0 0 120 1200 120 1200 0 892.25 114.72z"
-            className="shape-fill"
-          ></path>
-        </svg>
+      <hr className="max-w-5xl mx-auto border-t border-gray-200" />
+      {/* <div className="text-center mb-12 mt-12 ">
+        <h2 className="text-3xl font-semibold mb-6">Contact</h2>
+        <p className="text-gray-dark mt-2 text-sm">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit tempor pharetra eget consequat se.
+        </p>
+      </div> */}
+      <div className="max-w-4xl mx-auto px-6 mb-12 mt-12">
+        <div className="flex justify-between items-center">
+          <div>
+            <h2 className="text-3xl font-semibold">Contact</h2>
+            <p className="text-gray-dark text-sm mt-2"> A quick way to get in touch—let’s connect and collaborate.</p>
+          </div>
+        </div>
       </div>
-      <div className="flex flex-col justify-center items-center w-full h-full">
-        <div className="max-width-[1000px] w-full pb-8 text-center">
-          <div
-            className="text-4xl font-medium text-green z-10"
-            data-aos="fade-down"
-            data-aos-duration="1000"
-          >
-            Contact Me
-            <hr className="bg-green w-20 h-0.5 border-none mx-auto mt-1"></hr>
+      <div className="max-w-2xl w-full bg-white rounded-xl border border-gray-200 shadow-md p-10 mx-auto">
+        <form className="space-y-6">
+          <div className="grid sm:grid-cols-2 gap-6">
+            <div>
+              <label className="block text-sm font-semibold mb-1">Name</label>
+              <input type="text" placeholder="What's your name?" className="w-full border-b border-gray-200 p-2 focus:outline-none" />
+            </div>
+            <div>
+              <label className="block text-sm font-semibold mb-1">Email</label>
+              <input type="email" placeholder="What's your email?" className="w-full border-b border-gray-200 p-2 focus:outline-none" />
+            </div>
+            <div>
+              <label className="block text-sm font-semibold mb-1">Phone</label>
+              <input type="text" placeholder="What's your phone?" className="w-full border-b border-gray-200 p-2 focus:outline-none" />
+            </div>
+            <div>
+              <label className="block text-sm font-semibold mb-1">Subject</label>
+              <input type="text" placeholder="How can I help?" className="w-full border-b border-gray-200 p-2 focus:outline-none" />
+            </div>
           </div>
-        </div>
-        <div
-          className="lg:w-2/5 w-3/4 mx-auto pb-20 z-10"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay={300}
-        >
-          {/* <img src={code} alt="..."></img> */}
-          <div className="rounded-md bg-base-blue text-white p-10 shadow-2xl">
-            <form>
-              <label className="block mb-6">
-                <span className="text-xl">Name</span>
-                <input
-                  type="text"
-                  name="name"
-                  className="
-                  text-black
-            block
-            w-full
-            p-2
-            mt-2.5
-            border-b-[1px]
-            border-base-gray
-            focus:outline-none
-            shadow-sm
-          "
-                  placeholder="Your name"
-                />
-              </label>
-              <label className="block mb-6">
-                <span className="text-xl">Email address</span>
-                <input
-                  name="email"
-                  type="email"
-                  className="
-                  text-black
-            block
-            w-full
-            p-2
-            border-b-[1px]
-            mt-2.5
-            border-base-gray
-            focus:outline-none
-            shadow-sm
-          "
-                  placeholder="Your email"
-                  required
-                />
-              </label>
-              <label className="block mb-6">
-                <span className="text-xl">Message</span>
-                <textarea
-                  name="message"
-                  className="
-                  text-black
-            block
-            w-full
-            p-2
-            mt-2.5
-            border-[1px]
-            border-base-gray
-            focus:outline-none
-            shadow-sm
-          "
-                  rows="3"
-                  placeholder="Write a message..."
-                ></textarea>
-              </label>
-              <div className="py-3 text-center">
-                <div
-                  type="submit"
-                  style={{
-                    cursor: "pointer",
-                    borderRadius: "0.375rem 0.375rem 1.5rem",
-                  }}
-                  className="
-                  text-lg
-            py-2.5
-            mx-auto
-            text-black
-            bg-green
-            hover:bg-white
-            transition-colors
-            duration-150
-            focus:shadow-outline
-            w-28
-          "
-                >
-                  Send
-                </div>
-              </div>
-            </form>
+          <div>
+            <label className="block text-sm font-semibold mb-1">Leave me a message</label>
+            <textarea rows="4" placeholder="Hi there! I would like to get in touch with you to inquire about a project." className="w-full border-b border-gray-200 p-2 focus:outline-none" />
           </div>
-        </div>
+          <button type="submit" className="text-sm font-medium text-black hover:underline inline-flex items-center gap-1">
+            Send message
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </button>
+        </form>
       </div>
     </div>
   );

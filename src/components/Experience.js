@@ -1,5 +1,5 @@
-import { FaCircle, FaRegCalendarAlt, FaGraduationCap } from "react-icons/fa";
-import { IoBagRemove } from "react-icons/io5";
+// import { FaCircle, FaRegCalendarAlt, FaGraduationCap } from "react-icons/fa";
+// import { IoBagRemove } from "react-icons/io5";
 // import circle from "../assets/circle-scatter-haikei(1).svg";
 import React, { useEffect } from "react";
 import AOS from "aos";
@@ -8,16 +8,16 @@ import "aos/dist/aos.css";
 const Experience = () => {
   const expi = [
     {
-      title: "MS, Computer Science",
-      org: "New York University, New York",
-      time: "Sept 2023-May 2025",
-      desc: "Responsibility:",
+      title: "Research Assistant",
+      org: "New York University (Finance & Risk Eng)",
+      time: "May 2024 - Sept 2024",
+      desc: "Optimized LLMs using PEFT (LoRA variants), intrinsic dimension analysis, and inference techniques, achieving lower compute overhead across multiple architectures. Benchmarked LLMs to analyze truthfulness and hallucination.",
     },
     {
-      title: "BE, Information Technology",
-      org: "PVG's College Of Engineering & Technology, Pune",
-      time: "June 2019-May2023",
-      desc: "Responsibility:",
+      title: "Software Engineer Intern",
+      org: "FTB Communications",
+      time: "Aug 2021 - Aug 2022",
+      desc: "Engineered secure data migration workflows and automated testing to enhance data quality and system optimization.",
     },
     // {
     //   title: "Higher Secondary School, CS",
@@ -25,17 +25,17 @@ const Experience = () => {
     //   time: "2018-2019",
     //   desc: "Responsibility:",
     // },
-    {
-      title: "Software Engineer Intern",
-      org: "FTB Communications",
-      time: "Aug 2021-Aug 2022",
-      desc: "",
-    },
+    // {
+    //   title: "Software Engineer Intern",
+    //   org: "FTB Communications",
+    //   time: "Aug 2021-Aug 2022",
+    //   desc: "",
+    // },
     {
       title: "Machine Learning Intern",
       org: "ArrayPointer",
-      time: "Feb 2022-May 2022",
-      desc: "",
+      time: "Feb 2022 - May 2022",
+      desc: "Built a dynamic pricing model using machine learning, with rigorous evaluation of regression algorithms to optimize inventory pricing accuracy.",
     },
     // {
     //   title: "DS & ML Intern",
@@ -56,8 +56,9 @@ const Experience = () => {
   return (
     <div
       id="experience"
-      className=" pt-[90px] w-full bg-black text-white relative overflow-hidden"
+      className="bg-neutral-50 w-full"
     >
+      <hr className="max-w-5xl mx-auto border-t border-gray-200" />
       {/* <img src={circle} alt="..." className="max-w-full h-auto absolute"></img> */}
       {/* <div className="custom-shape-divider-bottom-1666374861">
         <svg
@@ -72,93 +73,49 @@ const Experience = () => {
           ></path>
         </svg>
       </div> */}
-      <div className="flex flex-col justify-center items-center w-full h-full">
-        <div className="max-width-[1000px] w-full pb-8 text-center">
-          <div
-            className="text-4xl text-green font-medium"
-            data-aos="fade-down"
-            data-aos-duration="1000"
-          >
-            Experience
-            <hr className="bg-green w-20 h-0.5 border-none mx-auto mt-1"></hr>
-          </div>
-        </div>
-        <div className="max-width-[1000px] w-full grid lg:grid-cols-2 py-10 px-20 text-lg z-10">
-          <div
-            className="lg:mx-auto mx-0"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-            data-aos-delay={300}
-          >
-            <h2 className="text-3xl font-medium mb-10 flex items-center gap-3">
-              <FaGraduationCap />
-              Education
-            </h2>
-            <div className="border-l-[3px] border-green">
-              {expi.slice(0, 2).map((items, i) => {
-                return (
-                  <div key={i}>
-                    <div className="flex ml-6 mb-10">
-                      <div>
-                        <FaCircle className="ml-[-32.5px] mt-[8px]" size={15} />
-                      </div>
-                      <div className="text-off-white">
-                        <h2 className="text-2xl text-green font-medium">
-                          {items.title}
-                        </h2>
-                        <div>
-                          <span className="text-off-white">{items.org}</span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                          <FaRegCalendarAlt />
-                          {items.time}
-                        </div>
-                        {/* <div>Some random text here(Responsibility)</div> */}
-                      </div>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-          <div
-            className="lg:mx-auto mx-0"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            data-aos-delay={300}
-          >
-            <h2 className="text-3xl font-medium mb-10 mt-10 lg:mt-0 flex items-center gap-3">
-              <IoBagRemove /> Work Experience
-            </h2>
-            <div className="border-l-[3px] border-green">
-              {expi.slice(2).map((items, i) => {
-                return (
-                  <div key={i}>
-                    <div className="flex ml-6 mb-10">
-                      <div>
-                        <FaCircle className="ml-[-32.5px] mt-[8px]" size={15} />
-                      </div>
-                      <div className="text-off-white">
-                        <h2 className="text-2xl text-green font-medium">
-                          {items.title}
-                        </h2>
-                        <div>
-                          <span className="text-off-white">{items.org}</span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                          <FaRegCalendarAlt />
-                          {items.time}
-                        </div>
-                        {/* <div>Some random text here(Responsibility)</div> */}
-                      </div>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
+      <div className="max-w-4xl mx-auto px-6 py-12">
+        {/* <div className="max-w-4xl w-full text-center pb-8">
+        <h2 className="text-3xl font-semibold text-black mb-6">My Past Experience</h2>
+        <p className="text-gray-dark text-sm">
+          A quick snapshot of my academic and professional journey.
+        </p>
+        </div> */}
+      <div className="max-w-4xl mx-auto px-6 mb-12">
+        <div className="flex justify-between items-center">
+          <div>
+            <h2 className="text-3xl font-semibold">Past Experience</h2>
+            <p className="text-gray-dark text-sm mt-2">A quick snapshot of my professional journey.</p>
           </div>
         </div>
       </div>
+        <div className="space-y-6">
+          {expi.map((items, i) => (
+            <div key={i} className="bg-white border border-gray-100 shadow-sm rounded-xl p-6 max-w-2xl mx-auto">
+              <h3 className="text-lg font-semibold text-black mb-4">{items.title}</h3>
+              <hr className="border-t border-gray-200 my-4" />
+              <div className="md:flex md:justify-between md:gap-12 text-sm text-gray-dark">
+                <div className="space-y-4 md:w-1/2">
+                  <div>
+                    <p className="font-semibold text-black mb-1">Organization</p>
+                    <p>{items.org}</p>
+                  </div>
+                  <div>
+                    <p className="font-semibold text-black mb-1">Period</p>
+                    <p>{items.time}</p>
+                  </div>
+                </div>
+                <div className="mt-6 md:mt-0 md:w-1/2">
+                  <p className="font-semibold text-black mb-1">Description</p>
+                  <p>
+                    {items.desc || "Quis orci amet porttitor blandit amet nullam sit elit purus blandit non ut non quam curabitur lorem ipsum dolor sit amet consectetur adipiscing elit neque tempor malesuada adipiscing congue diam."}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <hr className="max-w-5xl mx-auto border-t border-gray-200" />
     </div>
   );
 };
