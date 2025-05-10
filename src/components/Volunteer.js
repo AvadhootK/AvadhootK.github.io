@@ -12,6 +12,12 @@ const Volunteer = () => {
       desc: "Responsibility:",
     },
     {
+      title: "Member",
+      org: "NYU GISA (Graduate Indian Student Association)",
+      time: " Jan 2024 - May 2024",
+      desc: "Responsibility:",
+    },
+    {
       title: "Developer and Mentor",
       org: " Virtual Labs IIT Bombay",
       time: " July 2020 - Apr 2023",
