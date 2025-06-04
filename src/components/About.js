@@ -37,7 +37,7 @@ const About = () => {
               I’m Avadhoot Kulkarni, a Computer Science grad student at NYU with a passion for building ML-powered systems. I enjoy combining research and real-world engineering.
             </p>
             <p className="text-gray-dark text-base leading-relaxed mb-6">
-              I work across the AI stack—from building scalable LLM workflows to delivering clean, production-ready code. I care about performance, clarity, and real impact.
+              I work across the AI stack, from building scalable LLM workflows to delivering clean, production-ready code. I care about performance, clarity, and real impact.
             </p>
             <a href="#about" className="inline-flex items-center text-sm text-primary hover:underline font-medium">
               More about me

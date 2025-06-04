@@ -7,6 +7,12 @@ const Contact = () => {
   useEffect(() => {
     AOS.init();
   }, []);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert("Thank you for your message! This form is currently inactive — feel free to reach out via LinkedIn or email.");
+  };
+
   return (
     <div
       id="contact"
@@ -28,7 +34,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="max-w-2xl w-full bg-white rounded-xl border border-gray-200 shadow-md p-10 mx-auto">
-        <form className="space-y-6">
+        <form className="space-y-6" onSubmit={handleSubmit}>
           <div className="grid sm:grid-cols-2 gap-6">
             <div>
               <label className="block text-sm font-semibold mb-1">Name</label>
@@ -57,6 +63,9 @@ const Contact = () => {
               <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </button>
+          <p className="text-xs text-gray-500 italic mt-2">
+            *Form currently inactive — reach out via LinkedIn or email.
+          </p>
         </form>
       </div>
     </div>

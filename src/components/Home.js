@@ -30,7 +30,7 @@ const Home = () => {
             Hello, I am Avadhoot.<br /><span className="text-2xl">CS @ NYU</span>
           </h1>
           <p className="text-gray-dark text-base mb-6 max-w-xl">
-            I design and build intelligent systems that transform data into action — blending research and engineering to solve real-world problems.
+            I design and build intelligent systems that transform data into action, blending research and engineering to solve real-world problems.
           </p>
           <a href="#contact" className="inline-flex items-center text-sm text-primary hover:underline font-medium">
             Contact me

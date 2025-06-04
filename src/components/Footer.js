@@ -73,6 +73,9 @@ const Footer = () => {
             </div>
           </a>
         </div>
+        <p className="text-sm text-gray-400 mt-8 text-center">
+          Designed & built by <a href="https://avadhootk.github.io" className="underline hover:text-black">Avadhoot Kulkarni</a>
+        </p>
       </div>
     </div>
   );
