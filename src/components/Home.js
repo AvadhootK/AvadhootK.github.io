@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 // import self from "../assets/0_self.jpg";
-import self from "../assets/image.jpg";
+import self from "../assets/profilepic/image3.heic";
 // import self_blur from "../assets/self_blur.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
