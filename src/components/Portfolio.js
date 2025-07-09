@@ -38,6 +38,12 @@ const Portfolio = () => {
       link: "https://github.com/AvadhootK/LLM-Efficient-Tuning"
     },
     {
+      title: "RAG Based Auto-Grading System",
+      desc: "An LLM-powered auto-grading system for Jupyter notebooks using Retrieval-Augmented Generation (RAG), Chain-of-Thought prompting, and semantic rubric alignment.",
+      img: work5,
+      link: "https://github.com/AvadhootK/RAG-auto-grading-system"
+    },
+    {
       title: "Automated Chess Board Recognition and Interaction",
       desc: "A system that identifies and classifies chess pieces from a top-down view of the chessboard.",
       img: work2,
@@ -54,12 +60,6 @@ const Portfolio = () => {
       desc: "Exploring and visualizating global trends in YouTube video engagement",
       img: work4,
       link: "https://github.com/AvadhootK/YouTube-Trending-Global-Analysis"
-    },
-    {
-      title: "Advanced Regression House Prices",
-      desc: "Predicting house prices to estimate property's selling price based on various features.",
-      img: work5,
-      link: "https://github.com/AvadhootK/Advanced-Regression-House-Prices"
     },
     {
       title: "Machine Learning Projects",
