@@ -9,9 +9,33 @@ const Experience = () => {
   const expi = [
     {
       title: "Research Assistant",
+      org: "New York University (Courant Institute)",
+      time: "Jun 2025 - Present",
+      desc: "Natural Language Processing (NLP) Research",
+    },
+    {
+      title: "Research Assistant",
+      org: "New York University (Stern School of Business)",
+      time: "Nov 2024 - Feb 2025",
+      desc: "LLM-powered auto-grading system with rubric-based scoring and feedback.",
+    },
+    {
+      title: "Graduate Research & Teaching Assistant",
+      org: "NYU Vertically Integrated Projects (VIP)",
+      time: "Sept 2024 - Dec 2024",
+      desc: "Research Team Lead for Active Portfolio Management with Machine Learning & Time Series Forecasting",
+    },
+    {
+      title: "Research Assistant",
       org: "New York University (Finance & Risk Eng)",
       time: "May 2024 - Sept 2024",
       desc: "Optimized LLMs using PEFT (LoRA variants), intrinsic dimension analysis, and inference techniques, achieving lower compute overhead across multiple architectures. Benchmarked LLMs to analyze truthfulness and hallucination.",
+    },
+    {
+      title: "Graduate Student Researcher",
+      org: "NYU Vertically Integrated Projects (VIP)",
+      time: " Jan 2024 - May 2024",
+      desc: "Active Portfolio Management with Machine Learning & Time Series Forecasting",
     },
     {
       title: "Software Engineer Intern",

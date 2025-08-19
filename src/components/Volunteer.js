@@ -5,12 +5,12 @@ import React from "react";
 
 const Volunteer = () => {
   const expi = [
-    {
-      title: "Teaching Assistant",
-      org: "Active Portfolio Management with ML & Time Series Forecasting",
-      time: " Jan 2024 - Present",
-      desc: "Responsibility:",
-    },
+    // {
+    //   title: "Teaching Assistant",
+    //   org: "Active Portfolio Management with ML & Time Series Forecasting",
+    //   time: " Jan 2024 - Present",
+    //   desc: "Responsibility:",
+    // },
     {
       title: "Member",
       org: "NYU GISA (Graduate Indian Student Association)",
@@ -47,7 +47,7 @@ const Volunteer = () => {
       <div className="max-w-4xl mx-auto px-6 mb-12">
         <div className="flex justify-between items-center">
           <div>
-            <h2 className="text-3xl font-semibold">Volunteer Experience</h2>
+            <h2 className="text-3xl font-semibold">Volunteering</h2>
             <p className="text-gray-dark text-sm mt-2">Work I’ve contributed outside my main roles.</p>
           </div>
         </div>
