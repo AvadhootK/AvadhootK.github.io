@@ -34,10 +34,11 @@ const About = () => {
           <div>
             <h2 className="text-3xl font-semibold text-black mb-6">About Me</h2>
             <p className="text-gray-dark text-base leading-relaxed mb-4">
-              I’m Avadhoot Kulkarni, a Computer Science grad student at NYU with a passion for building ML-powered systems. I enjoy combining research and real-world engineering.
+              I’m Avadhoot Kulkarni, a recent Computer Science Master’s grad from New York University, and I love turning complex ideas into systems people actually use. 
+              I started with Machine Learning research on large language models, exploring ways to make them more efficient and practical. I also found myself drawn to the messy part that comes after the research: turning the concepts into something people could actually use.
             </p>
             <p className="text-gray-dark text-base leading-relaxed mb-6">
-              I work across the AI stack, from building scalable LLM workflows to delivering clean, production-ready code. I care about performance, clarity, and real impact.
+              That experience taught me two things: I thrive in fast-moving environments where the problems are messy and not fully defined, and I enjoy the ownership that comes with taking a project from idea to impact. I like to dive in, build quickly, test, and iterate, balancing speed with quality so that progress is tangible and momentum never stalls.
             </p>
             <a href="#about" className="inline-flex items-center text-sm text-primary hover:underline font-medium">
               More about me
