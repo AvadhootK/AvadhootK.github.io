@@ -2,6 +2,12 @@
 // import { IoBagRemove } from "react-icons/io5";
 // import circle from "../assets/circle-scatter-haikei(1).svg";
 import React from "react";
+import work1 from "../assets/newimgs/project1.jpeg";
+import work2 from "../assets/newimgs/project2.jpg";
+import work3 from "../assets/newimgs/project3.jpg";
+// import work4 from "../assets/newimgs/project4.jpg";
+import work5 from "../assets/newimgs/project5.jpg";
+// import work6 from "../assets/newimgs/project6.jpg";
 
 const Volunteer = () => {
   const expi = [
@@ -10,30 +16,35 @@ const Volunteer = () => {
     //   org: "Active Portfolio Management with ML & Time Series Forecasting",
     //   time: " Jan 2024 - Present",
     //   desc: "Responsibility:",
+    //   img: vol1,
     // },
     {
       title: "Member",
       org: "NYU GISA (Graduate Indian Student Association)",
       time: " Jan 2024 - May 2024",
       desc: "Responsibility:",
+      img: work1,
     },
     {
       title: "Developer and Mentor",
       org: " Virtual Labs IIT Bombay",
       time: " July 2020 - Apr 2023",
       desc: "Responsibility:",
+      img: work5,
     },
     {
       title: "Frontend Expert",
       org: "Google Developers Students Club (GDSC)",
       time: " Aug 2021 - Aug 2022",
       desc: "Responsibility:",
+      img: work3,
     },
     {
         title: "Technical Team Head",
         org: "Information Technology Students’ Association (ITSA)",
         time: "July 2021 - Apr 2023",
         desc: "Responsibility:",
+        img: work2,
       },
   ];
   return (
@@ -52,7 +63,7 @@ const Volunteer = () => {
           </div>
         </div>
       </div>
-        <div className="max-w-2xl mx-auto w-full flex flex-col gap-12">
+        <div className="max-w-xl mx-auto w-full flex flex-col gap-12">
           {expi.map((item, i) => (
             <div key={i} className="bg-white border border-gray-100 p-6 rounded-xl shadow-sm">
               <div className="mb-4">
@@ -73,6 +84,7 @@ const Volunteer = () => {
                   <p className="text-gray-800">{item.time}</p>
                 </div>
               </div>
+              <img src={item.img} alt={item.org} className="rounded-lg mt-4 w-full object-cover" />
             </div>
           ))}
         </div>
