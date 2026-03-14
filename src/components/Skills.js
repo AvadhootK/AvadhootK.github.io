@@ -29,7 +29,7 @@ import "aos/dist/aos.css";
 
 const Skills = () => {
   useEffect(() => {
-    AOS.init();
+    AOS.init({ duration: 600, once: true, easing: 'ease-out' });
   }, []);
 
   const skillItems = [
@@ -64,6 +64,8 @@ const Skills = () => {
           {skillItems.map((item, index) => (
             <div
               key={index}
+              data-aos="fade-up"
+              data-aos-delay={index * 100}
               className="bg-white rounded-xl text-black p-6 w-full max-w-xl shadow-sm border border-gray-100 mx-auto"
             >
               <h3 className="text-xl font-semibold mb-2">{item.title}</h3>

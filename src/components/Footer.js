@@ -34,6 +34,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/avadhoot-kulkarni/"
             target="_blank"
             rel="noreferrer"
+            aria-label="LinkedIn profile"
             className="w-full py-5 px-4 rounded-lg bg-white border border-gray-200 shadow-sm hover:shadow-md transition"
           >
             <div className="flex items-center justify-center gap-3">
@@ -45,6 +46,7 @@ const Footer = () => {
             href="https://github.com/AvadhootK"
             target="_blank"
             rel="noreferrer"
+            aria-label="GitHub profile"
             className="w-full py-5 px-4 rounded-lg bg-white border border-gray-200 shadow-sm hover:shadow-md transition"
           >
             <div className="flex items-center justify-center gap-3">
@@ -56,6 +58,7 @@ const Footer = () => {
             href="https://avadhootk.github.io"
             target="_blank"
             rel="noreferrer"
+            aria-label="Portfolio website"
             className="w-full py-5 px-4 rounded-lg bg-white border border-gray-200 shadow-sm hover:shadow-md transition"
           >
             <div className="flex items-center justify-center gap-3">
@@ -65,6 +68,7 @@ const Footer = () => {
           </a>
           <a
             href="/"
+            aria-label="Twitter profile"
             className="w-full py-5 px-4 rounded-lg bg-white border border-gray-200 shadow-sm hover:shadow-md transition"
           >
             <div className="flex items-center justify-center gap-3">

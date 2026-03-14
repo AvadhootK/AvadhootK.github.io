@@ -1,8 +1,7 @@
 // import { motion } from "framer-motion";
 import work1 from "../assets/projects/project1.png";
 import work2 from "../assets/projects/project2.png";
-// import work3 from "../assets/newimgs/project3.jpg";
-import work4 from "../assets/projects/project4.jpeg";
+import work3 from "../assets/projects/project3.png";
 import work5 from "../assets/projects/project5.png";
 import work6 from "../assets/projects/project6.png";
 
@@ -30,7 +29,7 @@ const Portfolio = () => {
   const videoRef = useRef(null);
 
   useEffect(() => {
-    AOS.init();
+    AOS.init({ duration: 600, once: true, easing: 'ease-out' });
   }, []);
 
   useEffect(() => {
@@ -74,14 +73,14 @@ const Portfolio = () => {
       link: "https://github.com/AvadhootK/chessAutomation"
     },
     {
-      title: "Causal Inference of Hours Worked on Stress Levels",
-      desc: "Investigating causal relationship between hours worked per week and stress levels",
-      img: work4,
-      link: "https://github.com/AvadhootK/Causal-Inference-Work-Stress"
+      title: "Sequential Taste Movie Recommender",
+      desc: "A full-stack movie recommendation system that models how user taste evolves over time. Treats a user's rating history as a temporal sequence and uses a Transformer encoder to predict where their taste is headed next.",
+      img: work3,
+      link: "https://github.com/AvadhootK/Sequential-Taste-Movie-Recommender"
     },
     {
       title: "Trending YouTube Video Engagement",
-      desc: "Exploring and visualizating global trends in YouTube video engagement",
+      desc: "Exploring and visualizing global trends in YouTube video engagement",
       img: work5,
       link: "https://github.com/AvadhootK/YouTube-Trending-Global-Analysis"
     },
@@ -121,7 +120,7 @@ const Portfolio = () => {
       {/* <hr className="max-w-6xl mx-auto mt-20 border-t border-gray-200" /> */}
       <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-10 px-6 mt-16">
         {projects.map((proj, i) => (
-          <div key={i} className="border border-gray-200 rounded-xl p-6 shadow-sm bg-white hover:bg-gray-50 transition-transform transform hover:-translate-y-1 duration-300 max-w-md w-full mx-auto">
+          <div key={i} data-aos="fade-up" data-aos-delay={i * 80} className="border border-gray-200 rounded-xl p-6 shadow-sm bg-white hover:bg-gray-50 transition-transform transform hover:-translate-y-1 duration-300 max-w-md w-full mx-auto">
             <div className="mb-6">
               <h3 className="text-lg font-semibold mb-3">{proj.title}</h3>
               <p className="text-sm text-gray-dark">{proj.desc}</p>

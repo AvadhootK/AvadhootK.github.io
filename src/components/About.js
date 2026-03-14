@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 
 const About = () => {
   useEffect(() => {
-    AOS.init();
+    AOS.init({ duration: 600, once: true, easing: 'ease-out' });
   }, []);
 
   const expi = [
@@ -31,23 +31,19 @@ const About = () => {
       {/* <img src={circle} alt="..." className="max-w-full h-auto absolute"></img> */}
       <div className="flex flex-col justify-center items-center w-full">
         <div className="max-w-4xl mx-auto grid md:grid-cols-[2fr_1fr] gap-20 px-6 py-16">
-          <div>
+          <div data-aos="fade-up">
             <h2 className="text-3xl font-semibold text-black mb-6">About Me</h2>
             <p className="text-gray-dark text-base leading-relaxed mb-4">
-              I’m Avadhoot Kulkarni, a recent Computer Science Master’s grad from New York University, and I love turning complex ideas into systems people actually use. 
-              I started with Machine Learning research on large language models, exploring ways to make them more efficient and practical. I also found myself drawn to the messy part that comes after the research: turning the concepts into something people could actually use.
+              I’m Avadhoot Kulkarni, a recent Computer Science Master’s graduate from New York University. I enjoy building intelligent systems that people actually use. My work started in machine learning research, particularly around large language models, where I explored ways to make them more efficient and practical. Over time, I realized I was just as interested in what happens after the research—turning those ideas into real applications.
+            </p>
+            <p className="text-gray-dark text-base leading-relaxed mb-4">
+              That led me to work across the stack, building end-to-end systems that combine ML models with reliable backend services and intuitive interfaces. I enjoy the process of taking something from an idea or experiment to a working product: designing the pipeline, integrating the models, building the APIs and UI, and iterating based on real usage.
             </p>
             <p className="text-gray-dark text-base leading-relaxed mb-6">
-              That experience taught me two things: I thrive in fast-moving environments where the problems are messy and not fully defined, and I enjoy the ownership that comes with taking a project from idea to impact. I like to dive in, build quickly, test, and iterate, balancing speed with quality so that progress is tangible and momentum never stalls.
+              I tend to do my best work in fast-moving environments where problems are messy and not fully defined. I like having ownership, building quickly, and continuously improving systems so they become more useful and dependable over time.
             </p>
-            <a href="#about" className="inline-flex items-center text-sm text-primary hover:underline font-medium">
-              More about me
-              <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </a>
           </div>
-          <div>
+          <div data-aos="fade-up" data-aos-delay="100">
             <h3 className="text-xl font-semibold text-black mb-4">Education</h3>
             {expi.map((item, idx) => (
               <div className="mb-4" key={idx}>

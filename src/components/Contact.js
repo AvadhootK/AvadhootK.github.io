@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 const Contact = () => {
   useEffect(() => {
-    AOS.init();
+    AOS.init({ duration: 600, once: true, easing: 'ease-out' });
   }, []);
 
   const handleSubmit = (e) => {
@@ -33,29 +33,29 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-2xl w-full bg-white rounded-xl border border-gray-200 shadow-md p-10 mx-auto">
+      <div data-aos="fade-up" className="max-w-2xl w-full bg-white rounded-xl border border-gray-200 shadow-md p-10 mx-auto">
         <form className="space-y-6" onSubmit={handleSubmit}>
           <div className="grid sm:grid-cols-2 gap-6">
             <div>
               <label className="block text-sm font-semibold mb-1">Name</label>
-              <input type="text" placeholder="What's your name?" className="w-full border-b border-gray-200 p-2 focus:outline-none" />
+              <input type="text" placeholder="What's your name?" className="w-full border-b border-gray-200 p-2 focus:outline-none focus:border-gray-500 transition-colors" />
             </div>
             <div>
               <label className="block text-sm font-semibold mb-1">Email</label>
-              <input type="email" placeholder="What's your email?" className="w-full border-b border-gray-200 p-2 focus:outline-none" />
+              <input type="email" placeholder="What's your email?" className="w-full border-b border-gray-200 p-2 focus:outline-none focus:border-gray-500 transition-colors" />
             </div>
             <div>
               <label className="block text-sm font-semibold mb-1">Phone</label>
-              <input type="text" placeholder="What's your phone?" className="w-full border-b border-gray-200 p-2 focus:outline-none" />
+              <input type="tel" placeholder="What's your phone?" className="w-full border-b border-gray-200 p-2 focus:outline-none focus:border-gray-500 transition-colors" />
             </div>
             <div>
               <label className="block text-sm font-semibold mb-1">Subject</label>
-              <input type="text" placeholder="How can I help?" className="w-full border-b border-gray-200 p-2 focus:outline-none" />
+              <input type="text" placeholder="How can I help?" className="w-full border-b border-gray-200 p-2 focus:outline-none focus:border-gray-500 transition-colors" />
             </div>
           </div>
           <div>
             <label className="block text-sm font-semibold mb-1">Leave me a message</label>
-            <textarea rows="4" placeholder="Hi there! I would like to get in touch with you to inquire about a project." className="w-full border-b border-gray-200 p-2 focus:outline-none" />
+            <textarea rows="4" placeholder="Hi there! I would like to get in touch with you to inquire about a project." className="w-full border-b border-gray-200 p-2 focus:outline-none focus:border-gray-500 transition-colors" />
           </div>
           <button type="submit" className="text-sm font-medium text-black hover:underline inline-flex items-center gap-1">
             Send message

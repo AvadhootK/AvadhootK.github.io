@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 
 const Home = () => {
   useEffect(() => {
-    AOS.init();
+    AOS.init({ duration: 600, once: true, easing: 'ease-out' });
   }, []);
   return (
     <div
@@ -17,7 +17,7 @@ const Home = () => {
       className="bg-neutral-50 w-full relative overflow-hidden"
     >
       <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-center md:items-center md:justify-center text-left px-6 pt-32 pb-24 space-y-10 md:space-y-0 md:space-x-16">
-        <div className="flex-shrink-0">
+        <div className="flex-shrink-0" data-aos="fade-up">
           <LazyLoadImage
             src={self}
             alt="Avadhoot Kulkarni"
@@ -25,7 +25,7 @@ const Home = () => {
             className="rounded-full w-48 h-48 object-cover"
           />
         </div>
-        <div className="text-left">
+        <div className="text-left" data-aos="fade-up" data-aos-delay="150">
           <h1 className="text-4xl font-bold text-black mb-4 leading-tight">
             Hello, I am Avadhoot.<br /><span className="text-2xl">CS @ NYU</span>
           </h1>

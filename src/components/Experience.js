@@ -11,7 +11,7 @@ const Experience = () => {
       title: "Research Assistant",
       org: "New York University (Courant Institute)",
       time: "Jun 2025 - Present",
-      desc: "Natural Language Processing (NLP) Research",
+      desc: "Natural Language Processing (NLP) Research — Document classification + synthetic data generation",
     },
     {
       title: "Research Assistant",
@@ -75,7 +75,7 @@ const Experience = () => {
     // },
   ];
   useEffect(() => {
-    AOS.init();
+    AOS.init({ duration: 600, once: true, easing: 'ease-out' });
   }, []);
   return (
     <div
@@ -114,7 +114,7 @@ const Experience = () => {
       </div>
         <div className="space-y-6">
           {expi.map((items, i) => (
-            <div key={i} className="bg-white border border-gray-100 shadow-sm rounded-xl p-6 max-w-2xl mx-auto">
+            <div key={i} data-aos="fade-up" data-aos-delay={i * 60} className="bg-white border border-gray-100 shadow-sm rounded-xl p-6 max-w-2xl mx-auto">
               <h3 className="text-lg font-semibold text-black mb-4">{items.title}</h3>
               <hr className="border-t border-gray-200 my-4" />
               <div className="md:flex md:justify-between md:gap-12 text-sm text-gray-dark">

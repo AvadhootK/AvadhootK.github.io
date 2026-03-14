@@ -1,7 +1,9 @@
 // import { FaCircle, FaRegCalendarAlt, FaGraduationCap } from "react-icons/fa";
 // import { IoBagRemove } from "react-icons/io5";
 // import circle from "../assets/circle-scatter-haikei(1).svg";
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import work1 from "../assets/newimgs/project1.jpeg";
 import work2 from "../assets/newimgs/project2.jpg";
 import work3 from "../assets/newimgs/project3.jpg";
@@ -10,6 +12,10 @@ import work5 from "../assets/newimgs/project5.jpg";
 // import work6 from "../assets/newimgs/project6.jpg";
 
 const Volunteer = () => {
+  useEffect(() => {
+    AOS.init({ duration: 600, once: true, easing: 'ease-out' });
+  }, []);
+
   const expi = [
     // {
     //   title: "Teaching Assistant",
@@ -21,31 +27,27 @@ const Volunteer = () => {
     {
       title: "Member",
       org: "NYU GISA (Graduate Indian Student Association)",
-      time: " Jan 2024 - May 2024",
-      desc: "Responsibility:",
+      time: "Jan 2024 - May 2024",
       img: work1,
     },
     {
       title: "Developer and Mentor",
-      org: " Virtual Labs IIT Bombay",
-      time: " July 2020 - Apr 2023",
-      desc: "Responsibility:",
+      org: "Virtual Labs IIT Bombay",
+      time: "July 2020 - Apr 2023",
       img: work5,
     },
     {
       title: "Frontend Expert",
       org: "Google Developers Students Club (GDSC)",
-      time: " Aug 2021 - Aug 2022",
-      desc: "Responsibility:",
+      time: "Aug 2021 - Aug 2022",
       img: work3,
     },
     {
-        title: "Technical Team Head",
-        org: "Information Technology Students’ Association (ITSA)",
-        time: "July 2021 - Apr 2023",
-        desc: "Responsibility:",
-        img: work2,
-      },
+      title: "Technical Team Head",
+      org: "Information Technology Students’ Association (ITSA)",
+      time: "July 2021 - Apr 2023",
+      img: work2,
+    },
   ];
   return (
     <div id="volunteer" className="w-full bg-neutral-50 text-black pb-6">
@@ -65,7 +67,7 @@ const Volunteer = () => {
       </div>
         <div className="max-w-xl mx-auto w-full flex flex-col gap-12">
           {expi.map((item, i) => (
-            <div key={i} className="bg-white border border-gray-100 p-6 rounded-xl shadow-sm">
+            <div key={i} data-aos="fade-up" data-aos-delay={i * 80} className="bg-white border border-gray-100 p-6 rounded-xl shadow-sm">
               <div className="mb-4">
                 <h3 className="text-xl font-semibold">{item.org}</h3>
               </div>
@@ -84,7 +86,7 @@ const Volunteer = () => {
                   <p className="text-gray-800">{item.time}</p>
                 </div>
               </div>
-              <img src={item.img} alt={item.org} className="rounded-lg mt-4 w-full object-cover" />
+              <img src={item.img} alt={item.org} loading="lazy" className="rounded-lg mt-4 w-full object-cover" />
             </div>
           ))}
         </div>

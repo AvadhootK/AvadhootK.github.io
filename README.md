@@ -1,6 +1,6 @@
 # Project Overview
 
- ## Avadhoot Kulkarni’s Portfolio Website
+ ## Avadhoot Kulkarni's Portfolio Website
 A sleek, modern portfolio and personal site built with React.js and Tailwind CSS. Deployed on GitHub Pages, it showcases my ML-powered work, research, and engineering philosophy. Live at: https://avadhootk.github.io  ￼
 
 
@@ -22,8 +22,8 @@ A sleek, modern portfolio and personal site built with React.js and Tailwind CSS
 
 ## Key Features
 
-- **Custom Frontend** built with React and Tailwind — no templates or site generators.  
-- **Modern & Responsive**: adaptive UI across devices, optimized for performance.  
-- **Clean, Scalable Codebase**: component-driven architecture, PostCSS pipeline.  
-- **Effortless CI/CD**: GitHub Pages deployment and version-controlled workflow.  
+- **Custom Frontend** built with React and Tailwind — no templates or site generators.
+- **Modern & Responsive**: adaptive UI across devices, optimized for performance.
+- **Clean, Scalable Codebase**: component-driven architecture, PostCSS pipeline.
+- **Effortless CI/CD**: GitHub Pages deployment and version-controlled workflow.
 - **Fast Loading**: minified bundle, tree-shaking, and optimized assets.
