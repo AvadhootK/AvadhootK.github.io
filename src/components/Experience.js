@@ -20,10 +20,10 @@ const Experience = () => {
       desc: "LLM-powered auto-grading system with rubric-based scoring and feedback.",
     },
     {
-      title: "Graduate Research & Teaching Assistant",
+      title: "Lead Machine Learning Engineer",
       org: "NYU Vertically Integrated Projects (VIP)",
       time: "Sept 2024 - Dec 2024",
-      desc: "Research Team Lead for Active Portfolio Management with Machine Learning & Time Series Forecasting",
+      desc: "Team Lead for Active Portfolio Management with Machine Learning & Time Series Forecasting",
     },
     {
       title: "Research Assistant",
@@ -32,7 +32,7 @@ const Experience = () => {
       desc: "Optimized LLMs using PEFT (LoRA variants), intrinsic dimension analysis, and inference techniques, achieving lower compute overhead across multiple architectures. Benchmarked LLMs to analyze truthfulness and hallucination.",
     },
     {
-      title: "Graduate Student Researcher",
+      title: "Machine Learning Engineer",
       org: "NYU Vertically Integrated Projects (VIP)",
       time: " Jan 2024 - May 2024",
       desc: "Active Portfolio Management with Machine Learning & Time Series Forecasting",
