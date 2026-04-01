@@ -56,17 +56,17 @@ const Skills = () => {
       id="skills"
       className="w-full bg-neutral-50 text-black py-16"
     >
-      <div className="max-w-4xl mx-auto px-6">
+      <div className="max-w-5xl mx-auto px-6">
         <div className="w-full mb-10">
           <h2 className="text-3xl font-semibold">My skills</h2>
         </div>
-        <div className="w-full grid md:grid-cols-2 grid-cols-1 gap-8">
+        <div className="w-full grid md:grid-cols-2 grid-cols-1 gap-10">
           {skillItems.map((item, index) => (
             <div
               key={index}
               data-aos="fade-up"
               data-aos-delay={index * 100}
-              className="bg-white rounded-xl text-black p-6 w-full max-w-xl shadow-sm border border-gray-100 mx-auto"
+              className="bg-white rounded-xl text-black p-6 w-full max-w-lg shadow-sm border border-gray-100 mx-auto"
             >
               <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
               <hr className="border-t border-gray-200" />

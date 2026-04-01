@@ -29,7 +29,7 @@ const Contact = () => {
         <div className="flex justify-between items-center">
           <div>
             <h2 className="text-3xl font-semibold">Contact</h2>
-            <p className="text-gray-dark text-sm mt-2"> A quick way to get in touch—let’s connect and collaborate.</p>
+            <p className="text-gray-dark text-sm mt-2"> A quick way to get in touch—let’s connect and collaborate!</p>
           </div>
         </div>
       </div>
