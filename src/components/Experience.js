@@ -8,7 +8,7 @@ import "aos/dist/aos.css";
 const Experience = () => {
   const expi = [
     {
-      title: "Research Assistant",
+      title: "Machine Learning Engineer Intern",
       org: "New York University (Courant Institute)",
       time: "Jun 2025 - Present",
       desc: "Natural Language Processing (NLP) Research — Document classification + synthetic data generation",
@@ -26,7 +26,7 @@ const Experience = () => {
       desc: "Team Lead for Active Portfolio Management with Machine Learning & Time Series Forecasting",
     },
     {
-      title: "Research Assistant",
+      title: "Machine Learning Engineer Intern",
       org: "New York University (Finance & Risk Eng)",
       time: "May 2024 - Sept 2024",
       desc: "Optimized LLMs using PEFT (LoRA variants), intrinsic dimension analysis, and inference techniques, achieving lower compute overhead across multiple architectures. Benchmarked LLMs to analyze truthfulness and hallucination.",

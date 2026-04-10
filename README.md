@@ -27,3 +27,4 @@ A sleek, modern portfolio and personal site built with React.js and Tailwind CSS
 - **Clean, Scalable Codebase**: component-driven architecture, PostCSS pipeline.
 - **Effortless CI/CD**: GitHub Pages deployment and version-controlled workflow.
 - **Fast Loading**: minified bundle, tree-shaking, and optimized assets.
+- **Automated CI/CD Pipeline:** Configured GitHub Actions to automatically build and deploy the React app to GitHub Pages upon every push to the `main` branch, ensuring seamless continuous deployment.
